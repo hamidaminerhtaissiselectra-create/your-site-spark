@@ -58,9 +58,11 @@ const RegionCard = ({ r, i }: { r: Region; i: number }) => {
         <div className="text-[10px] text-muted-foreground font-medium mb-4">
           <span className="px-2 py-1 rounded-md bg-black/5">{r.depts.split(",").length} départements</span>
         </div>
-        <div className="mt-auto flex items-center gap-2 text-xs font-semibold text-accent transition-all duration-300 group-hover:gap-3">
-          Voir les détails <ArrowRight className="h-3 w-3" />
-        </div>
+        {r.active && (
+          <div className="mt-auto flex items-center gap-2 text-xs font-semibold text-accent transition-all duration-300 group-hover:gap-3">
+            Voir les détails <ArrowRight className="h-3 w-3" />
+          </div>
+        )}
       </div>
     </>
   );
@@ -77,14 +79,24 @@ const RegionCard = ({ r, i }: { r: Region; i: number }) => {
       {r.active ? (
         <Link to={r.link} className="flex flex-col h-full">{content}</Link>
       ) : (
-        <Link to={r.link} className="flex flex-col h-full">{content}</Link>
+        <div className="flex flex-col h-full">{content}</div>
       )}
     </motion.div>
   );
 };
 
-const ServiceRegionsSection = () => {
-  const [showAll, setShowAll] = useState(false);
+const ServiceRegionsSection = ({ regionsFirst = false }: { regionsFirst?: boolean }) => {
+  const [showMore, setShowMore] = useState(false);
+  const [showSecondary, setShowSecondary] = useState(false);
+
+  // When regionsFirst is true, show allFranceRegions first, then Paris/IDF
+  const primaryRegions = regionsFirst ? allFranceRegions : activeRegions;
+  const secondaryRegions = regionsFirst ? activeRegions : allFranceRegions;
+  
+  // Show only 1 row initially (4 items on lg)
+  const firstRowCount = 4;
+  const primaryFirstRow = primaryRegions.slice(0, firstRowCount);
+  const primaryRest = primaryRegions.slice(firstRowCount);
 
   return (
     <section className="py-16 bg-section-gradient relative overflow-hidden">
@@ -107,29 +119,55 @@ const ServiceRegionsSection = () => {
           </p>
         </motion.div>
 
-        {/* Active: Paris & IDF */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
-          {activeRegions.map((r, i) => (
+        {/* Primary regions - first row always visible */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+          {primaryFirstRow.map((r, i) => (
             <RegionCard key={r.name} r={r} i={i} />
           ))}
         </div>
 
-        {/* Other regions - expandable */}
-        {!showAll ? (
+        {/* Primary regions - remaining rows expandable */}
+        {primaryRest.length > 0 && (
+          <>
+            {showMore ? (
+              <>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+                  {primaryRest.map((r, i) => (
+                    <RegionCard key={r.name} r={r} i={i} />
+                  ))}
+                </div>
+                <div className="text-center mb-6">
+                  <Button onClick={() => setShowMore(false)} variant="outline" size="sm" className="rounded-full border-accent/30 text-accent hover:bg-accent/10">
+                    Masquer <ChevronUp className="ml-1 h-4 w-4" />
+                  </Button>
+                </div>
+              </>
+            ) : (
+              <div className="text-center mb-6">
+                <Button onClick={() => setShowMore(true)} variant="outline" className="rounded-full border-accent/30 text-accent hover:bg-accent/10">
+                  Voir plus de régions ({primaryRest.length}) <ChevronDown className="ml-1 h-4 w-4" />
+                </Button>
+              </div>
+            )}
+          </>
+        )}
+
+        {/* Secondary regions - expandable */}
+        {!showSecondary ? (
           <div className="text-center">
-            <Button onClick={() => setShowAll(true)} variant="outline" className="rounded-full border-accent/30 text-accent hover:bg-accent/10">
-              Voir toutes les régions de France <ChevronDown className="ml-1 h-4 w-4" />
+            <Button onClick={() => setShowSecondary(true)} variant="outline" className="rounded-full border-accent/30 text-accent hover:bg-accent/10">
+              {regionsFirst ? "Voir Paris & Île-de-France" : "Voir toutes les régions de France"} <ChevronDown className="ml-1 h-4 w-4" />
             </Button>
           </div>
         ) : (
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {allFranceRegions.map((r, i) => (
+              {secondaryRegions.map((r, i) => (
                 <RegionCard key={r.name} r={r} i={i} />
               ))}
             </div>
             <div className="mt-6 text-center">
-              <Button onClick={() => setShowAll(false)} variant="outline" size="sm" className="rounded-full border-accent/30 text-accent hover:bg-accent/10">
+              <Button onClick={() => setShowSecondary(false)} variant="outline" size="sm" className="rounded-full border-accent/30 text-accent hover:bg-accent/10">
                 Masquer <ChevronUp className="ml-1 h-4 w-4" />
               </Button>
             </div>
