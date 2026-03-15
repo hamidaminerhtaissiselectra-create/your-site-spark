@@ -55,7 +55,7 @@ const ZoneCityPage = ({ city }: ZoneCityPageProps) => {
     },
     "telephone": "+33603205967",
     "email": "contact@reparaction-volets.fr",
-    "priceRange": "€€",
+    "priceRange": "Devis gratuit",
     "image": city.image ? `https://reparaction-volets.fr${city.image}` : undefined,
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": String(Math.max(city.testimonials.length * 12, 35)), "bestRating": "5" },
     "hasOfferCatalog": {
