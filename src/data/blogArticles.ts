@@ -833,12 +833,9 @@ Les **rideaux métalliques** des commerces du boulevard Voltaire, de la rue Ober
 
 **République & Temple** : à la frontière du Marais (3e et 4e), les immeubles classés imposent des contraintes esthétiques. Nous proposons des volets aluminium laqué dans les coloris RAL autorisés par les ABF.
 
-### Tarifs dans le 11e arrondissement
+### Nos services dans le 11e
 
-- Réparation sangle encastrée : 90-130€
-- Motorisation volet existant : 300-500€
-- Déblocage rideau métallique (urgence) : 120-200€
-- Installation volet neuf sur-mesure : 400-900€
+Nous intervenons pour tous types de pannes et installations : réparation de sangles encastrées, motorisation de volets existants, déblocage de rideaux métalliques en urgence, installation sur-mesure. Devis gratuit et personnalisé.
 
 Intervention sous 24h garantie. Appelez le **06 03 20 59 67**.`
   },
