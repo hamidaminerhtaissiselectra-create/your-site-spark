@@ -172,9 +172,9 @@ const InstallationRemplacementPage = () => {
       />
       <FAQSection
         title="Questions Fréquentes — Installation & Remplacement de Volets"
-        subtitle="Tout savoir sur l'installation de volets roulants neufs : matériaux, prix, aides financières, durée des travaux."
+        subtitle="Tout savoir sur l'installation de volets roulants neufs : matériaux, aides financières, durée des travaux."
         faqs={[
-          { q: "Quel est le prix d'une installation de volet roulant neuf ?", a: "Comptez entre 350€ et 900€ par volet pose comprise (aluminium ou PVC). Les volets solaires Somfy/Bubendorff se situent entre 600€ et 1 200€. Devis gratuit après visite technique." },
+          { q: "Combien coûte l'installation d'un volet roulant neuf ?", a: "Le coût varie selon le matériau (aluminium, PVC ou solaire), les dimensions et le type de motorisation choisi. Nous réalisons un devis gratuit et personnalisé après visite technique pour vous proposer la solution la plus adaptée à votre budget." },
           { q: "Aluminium ou PVC : quel matériau choisir ?", a: "L'aluminium offre le meilleur rapport poids/résistance, une isolation thermique supérieure et plus de 200 coloris. Le PVC est plus économique et suffisant pour les fenêtres standard. Nous vous conseillons selon vos besoins." },
           { q: "Combien de temps dure l'installation ?", a: "Comptez une demi-journée pour 1 à 3 volets, une journée complète pour 4 à 8 volets. L'installation est propre : nous protégeons vos sols et murs et nettoyons le chantier après intervention." },
           { q: "Puis-je bénéficier de MaPrimeRénov' pour mes volets ?", a: "Oui, notre certification RGE vous permet de bénéficier de MaPrimeRénov', de l'éco-PTZ et du crédit d'impôt pour l'installation de volets isolants. Nous vous accompagnons dans les démarches." },

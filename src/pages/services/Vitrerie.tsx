@@ -182,10 +182,10 @@ const VitreriePage = () => {
       />
       <FAQSection
         title="Questions Fréquentes — Vitrerie & Remplacement de Vitrage"
-        subtitle="Tout savoir sur le remplacement de vitrage : urgences, types de vitrage, prix, prise en charge assurance."
+        subtitle="Tout savoir sur le remplacement de vitrage : urgences, types de vitrage, prise en charge assurance."
         faqs={[
           { q: "En combien de temps intervenez-vous pour un bris de glace ?", a: "En urgence, nous intervenons sous 2 heures à Paris pour sécuriser votre logement. La pose du vitrage provisoire est immédiate. Le vitrage définitif est posé sous 24 à 72 heures selon le type commandé." },
-          { q: "Quel est le prix d'un remplacement de double vitrage ?", a: "Le prix dépend des dimensions et du type de vitrage : comptez 80-150€/m² pour un double vitrage standard, 150-250€/m² pour un vitrage anti-effraction feuilleté, et 120-200€/m² pour un vitrage acoustique." },
+          { q: "Combien coûte un remplacement de double vitrage ?", a: "Le coût dépend des dimensions, du type de vitrage et de la configuration de votre fenêtre. Nous établissons un devis gratuit et personnalisé après prise de mesures. Contactez-nous pour une estimation adaptée à votre situation." },
           { q: "Mon assurance prend-elle en charge le bris de glace ?", a: "Oui, la garantie bris de glace est incluse dans la majorité des assurances habitation. Nous établissons un devis conforme aux exigences des assureurs et vous accompagnons dans la déclaration de sinistre." },
           { q: "Quelle différence entre vitrage feuilleté et trempé ?", a: "Le vitrage feuilleté (anti-effraction) contient un film PVB qui retient les éclats en cas de bris. Le vitrage trempé est 5 fois plus résistant mais se brise en petits morceaux. Le feuilleté est recommandé pour la sécurité." },
           { q: "Remplacez-vous les vitrages de baies vitrées et portes-fenêtres ?", a: "Oui, nous intervenons sur tous types d'ouvertures : fenêtres, baies vitrées, portes-fenêtres, vérandas, vitrines de commerce. Prise de mesures précise et pose certifiée." },
