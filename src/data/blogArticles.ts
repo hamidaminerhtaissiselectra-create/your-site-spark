@@ -340,27 +340,27 @@ Un volet roulant bloqué est l'une des pannes les plus fréquentes et les plus s
 ### 1. Sangle cassée ou sortie de son enrouleur
 **Symptôme** : la sangle pend mollement ou ne remonte plus.
 **Solution immédiate** : ne forcez pas. Le tablier risque de tomber brusquement.
-**Réparation** : remplacement de la sangle et du mécanisme d'enrouleur (80-120€).
+**Réparation** : remplacement de la sangle et du mécanisme d'enrouleur. Intervention rapide.
 
 ### 2. Lames désalignées ou sorties des coulisses
 **Symptôme** : le volet est bloqué à mi-course, on voit un décalage dans les lames.
 **Solution immédiate** : essayez doucement de remonter le volet pour réaligner les lames.
-**Réparation** : réalignement des lames et vérification des coulisses (100-150€).
+**Réparation** : réalignement des lames et vérification des coulisses.
 
 ### 3. Moteur défaillant (volet électrique)
 **Symptôme** : aucun bruit quand vous actionnez l'interrupteur, ou un bourdonnement sans mouvement.
 **Diagnostic** : vérifiez le disjoncteur dédié, la télécommande (piles) et les fils.
-**Réparation** : remplacement du condensateur (90-150€) ou du moteur (180-350€).
+**Réparation** : remplacement du condensateur ou du moteur selon le diagnostic.
 
 ### 4. Fin de course déréglée
 **Symptôme** : le volet ne descend plus complètement ou ne remonte plus en haut.
 **Solution** : un réglage des fins de course est nécessaire.
-**Réparation** : intervention rapide de 20-30 minutes (80-120€).
+**Réparation** : intervention rapide de 20-30 minutes.
 
 ### 5. Axe d'enroulement cassé
 **Symptôme** : le volet est tombé dans le coffre et ne répond plus du tout.
 **Solution** : nécessite l'ouverture du coffre et le remplacement de l'axe.
-**Réparation** : intervention technique (150-250€).
+**Réparation** : intervention technique spécialisée.
 
 ## Ce que vous pouvez faire avant d'appeler un professionnel
 
