@@ -918,7 +918,7 @@ Le coffre est encastré dans le linteau ou dissimulé derrière un bandeau. Depu
 
 - **Avantages** : conformité ABF quasi systématique, esthétique préservée
 - **Inconvénients** : installation plus technique, nécessite parfois des travaux de maçonnerie
-- **Prix** : 600 à 1 200€ par fenêtre (pose comprise)
+- **Avantages** : conformité ABF quasi systématique, esthétique préservée
 - **Idéal pour** : hôtels particuliers rue de Turenne, rue des Francs-Bourgeois, Place des Vosges
 
 ### Option 2 : Volet roulant monobloc intérieur
