@@ -6,8 +6,8 @@
  */
 
 export const auditInterne = {
-  dateAudit: "2026-03-12",
-  version: "3.0",
+  dateAudit: "2026-03-15",
+  version: "3.1",
 
   // ──────────────────────────────────────
   // 1. SITEMAP & INDEXATION
