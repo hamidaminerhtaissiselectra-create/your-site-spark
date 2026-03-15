@@ -367,7 +367,7 @@ Un volet roulant bloqué est l'une des pannes les plus fréquentes et les plus s
 1. **Vérifiez l'alimentation électrique** : disjoncteur, fusible dédié au volet
 2. **Testez la télécommande** : changez les piles, essayez l'interrupteur mural
 3. **Regardez les coulisses** : un objet coincé peut bloquer le tablier
-4. **Ne forcez JAMAIS** : vous risquez d'aggraver la panne et d'augmenter le coût
+4. **Ne forcez JAMAIS** : vous risquez d'aggraver la panne
 
 ## Quand appeler Répar'Action Volets ?
 
