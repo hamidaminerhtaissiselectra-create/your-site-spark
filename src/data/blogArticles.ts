@@ -1125,12 +1125,12 @@ L'installation de volets en haussmannien passe souvent par un **vote en assembl�
 
 ## Moteurs recommandés pour haussmannien
 
-| Modèle | Couple | Type | Domotique | Prix |
-|--------|--------|------|-----------|------|
-| Somfy Oximo 40 io | 40 Nm | Radio | TaHoma, Google, Alexa | 350-450€ |
-| Somfy Sunea io Solar | 30 Nm | Solaire | TaHoma, Google, Alexa | 450-600€ |
-| Bubendorff ID2 Solar | 35 Nm | Solaire | App Bubendorff | 400-550€ |
-| Simu Hz02 | 30 Nm | Radio | Compatible Somfy | 280-380€ |
+| Modèle | Couple | Type | Domotique |
+|--------|--------|------|-----------|
+| Somfy Oximo 40 io | 40 Nm | Radio | TaHoma, Google, Alexa |
+| Somfy Sunea io Solar | 30 Nm | Solaire | TaHoma, Google, Alexa |
+| Bubendorff ID2 Solar | 35 Nm | Solaire | App Bubendorff |
+| Simu Hz02 | 30 Nm | Radio | Compatible Somfy |
 
 ## Notre expertise haussmannienne
 
