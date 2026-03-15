@@ -280,11 +280,11 @@ L'aluminium représente **65% des ventes** de volets roulants en France, et pour
 - **Durabilité** : résiste à la corrosion, aux UV et aux intempéries
 - **Esthétique** : plus de 200 coloris RAL disponibles
 - **Durée de vie** : 25 à 30 ans
-- **Prix** : 250 à 600€ par volet (hors pose)
+- **Prix** : contactez-nous pour un devis adapté à vos dimensions
 
 ### PVC — Le plus économique
 Le PVC est le choix idéal pour les budgets serrés :
-- **Prix accessible** : 150 à 350€ par volet (hors pose)
+- **Solution la plus accessible** du marché
 - **Bon isolant** : performances correctes en isolation
 - **Entretien minimal** : un simple nettoyage suffit
 - **Limite** : moins résistant que l'aluminium pour les grandes dimensions
@@ -296,18 +296,17 @@ Le bois est réservé aux amateurs de tradition et d'authenticité :
 - **Isolation naturelle** : excellentes performances
 - **Éco-responsable** : matériau renouvelable
 - **Entretien** : nécessite un traitement régulier (tous les 3-5 ans)
-- **Prix** : 400 à 800€ par volet (hors pose)
 
 ## Critère n°2 : La motorisation
 
-| Type | Avantages | Budget |
+| Type | Avantages | Positionnement |
 |------|-----------|--------|
-| Manuel (sangle) | Économique, fiable | Inclus |
-| Manuel (manivelle) | Plus confortable | +50€ |
-| Motorisé filaire | Confort, anti-effraction | +200€ |
-| Motorisé radio | Flexibilité, centralisation | +300€ |
-| Motorisé solaire | Autonome, écologique | +400€ |
-| Connecté | Domotique, smartphone | +450€ |
+| Manuel (sangle) | Économique, fiable | Essentiel |
+| Manuel (manivelle) | Plus confortable | Confort |
+| Motorisé filaire | Confort, anti-effraction | Milieu de gamme |
+| Motorisé radio | Flexibilité, centralisation | Haut de gamme |
+| Motorisé solaire | Autonome, écologique | Éco-responsable |
+| Connecté | Domotique, smartphone | Premium |
 
 ## Critère n°3 : Le type de pose
 
