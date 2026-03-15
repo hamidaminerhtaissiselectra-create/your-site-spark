@@ -1033,16 +1033,9 @@ L'exposition nord de la butte et l'humidité ambiante provoquent des **gonflemen
 - **Château-Rouge & Goutte d'Or** : sécurisation rez-de-chaussée, tarifs accessibles
 - **Place du Tertre & Sacré-Cœur** : immeubles touristiques, interventions discrètes
 
-## Tarifs spéciaux Montmartre
+## Nos services à Montmartre
 
-Contrairement à certains concurrents, nous ne facturons **aucun supplément** pour les rues en pente ou les étages sans ascenseur. Nos tarifs sont les mêmes que dans le reste de Paris.
-
-| Intervention | Prix | Délai |
-|-------------|------|-------|
-| Remplacement sangle | 80-120€ | Même jour |
-| Réalignement coulisses | 100-150€ | 24h |
-| Remplacement moteur | 180-350€ | 24-48h |
-| Motorisation volet manuel | 300-500€ | 48h |
+Contrairement à certains concurrents, nous ne facturons **aucun supplément** pour les rues en pente ou les étages sans ascenseur. Nos délais sont identiques au reste de Paris. Devis gratuit et personnalisé.
 
 Appelez le **06 03 20 59 67** — nos techniciens connaissent Montmartre comme leur poche.`
   },
