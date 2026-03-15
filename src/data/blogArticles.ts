@@ -110,7 +110,7 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 - **Solutions solaires** de référence (technologie ID2)
 - **Moteurs monoblocs** intégrés : installation simplifiée
 - **Qualité premium** : fabrication 100% française
-- **Rapport qualité/prix** excellent sur les solutions solaires
+- **Excellent rapport qualité-performance** sur les solutions solaires
 - **Garantie étendue** : jusqu'à 7 ans sur les moteurs
 
 ### Points faibles de Bubendorff
