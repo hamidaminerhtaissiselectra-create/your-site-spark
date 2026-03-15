@@ -1311,14 +1311,7 @@ Un seul clic sur votre télécommande ou smartphone ferme **tous les volets** et
 
 ## Budget sécurité volets à Neuilly
 
-| Solution | Prix par volet | Installation |
-|----------|---------------|-------------|
-| Volet A2P BP1 alu | 500-800€ | 2-3h |
-| Volet A2P BP2 alu extrudé | 800-1 200€ | 2-3h |
-| Volet A2P BP3 haute sécurité | 1 200-2 000€ | 3-4h |
-| Option détection d'intrusion | +150-250€ | Inclus |
-| Option simulation de présence | +100-200€ | Inclus |
-| Centralisation complète | 300-500€ | 2h |
+Le budget dépend du niveau de certification A2P souhaité, du nombre de volets et des options de sécurité (détection d'intrusion, simulation de présence, centralisation). Contactez-nous pour un audit sécurité gratuit et un devis personnalisé.
 
 ### Impact sur l'assurance habitation
 
