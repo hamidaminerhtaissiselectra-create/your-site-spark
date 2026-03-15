@@ -927,7 +927,7 @@ Le coffre est posé à l'intérieur, contre le linteau de la fenêtre. Invisible
 
 - **Avantages** : aucune modification de façade, installation rapide
 - **Inconvénients** : légère perte de hauteur de fenêtre (15-20 cm)
-- **Prix** : 400 à 800€ par fenêtre
+- **Avantages** : aucune modification de façade, installation rapide
 - **Idéal pour** : appartements locatifs, copropriétés qui refusent les travaux en façade
 
 ### Option 3 : Volets battants en bois motorisés
