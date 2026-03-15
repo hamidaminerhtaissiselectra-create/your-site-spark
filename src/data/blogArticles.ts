@@ -1085,7 +1085,7 @@ Si vos volets sont déjà motorisés (moteur filaire) ou manuels avec un axe en 
 - **Intervention** : 1 à 2 heures par volet
 - **Aucun travail de maçonnerie**
 - **Compatible Somfy io** pour centralisation
-- **Prix** : 300 à 450€ par volet
+- **Devis gratuit** après diagnostic sur place
 
 ### Solution n°2 : Motorisation solaire (sans câblage)
 
