@@ -714,14 +714,9 @@ Avec plus de 120 000 habitants, **Boulogne-Billancourt** est la commune la plus 
 - **Installation neuve** : volets sur-mesure aluminium ou PVC, pose professionnelle
 - **Vitrerie** : remplacement de vitrage simple, double ou triple, urgence bris de glace
 
-### Tarifs indicatifs à Boulogne-Billancourt
+### Devis gratuit à Boulogne-Billancourt
 
-| Intervention | Prix moyen |
-|-------------|-----------|
-| Remplacement sangle | 80-120€ |
-| Motorisation par volet | 300-500€ |
-| Remplacement moteur | 180-350€ |
-| Installation volet neuf | 350-900€ |
+Chaque intervention fait l'objet d'un devis gratuit et personnalisé. Contactez-nous pour une estimation adaptée à votre situation.
 
 Notre technicien dédié aux Hauts-de-Seine intervient à Boulogne-Billancourt, Issy-les-Moulineaux, Meudon et Sèvres. Contactez-nous au **06 03 20 59 67**.`
   },
