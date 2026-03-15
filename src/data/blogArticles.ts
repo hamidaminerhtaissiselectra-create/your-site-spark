@@ -1102,7 +1102,7 @@ Pour les fenêtres sans volets ou avec des volets battants à remplacer :
 - Coffre sur mesure adapté aux dimensions haussmanniennes
 - Lames alu à double paroi, coloris au choix
 - Moteur radio ou connecté intégré
-- **Prix** : 800 à 1 500€ par fenêtre (selon dimensions)
+- **Devis sur mesure** selon dimensions et motorisation
 
 ## Comment convaincre la copropriété
 
