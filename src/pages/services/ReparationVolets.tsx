@@ -46,7 +46,7 @@ const ReparationVoletsPage = () => {
       "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }],
       "description": "Réparation rapide de tous types de volets roulants : manuels, électriques, solaires. Diagnostic gratuit, devis transparent, garantie 3 ans pièces et main d'œuvre.",
       "serviceType": "Réparation volet roulant",
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "80-350" }
+      "offers": { "@type": "Offer", "description": "Devis gratuit et personnalisé selon la panne" }
     };
     const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://reparaction-volets.fr" },
