@@ -171,25 +171,25 @@ Pour les personnes à mobilité réduite ou les seniors, la motorisation rend le
 
 ### 1. Motorisation filaire
 Le moteur est commandé par un interrupteur mural fixe relié par fil.
-- **Prix** : 200 à 350€ par volet (pose comprise)
+- **Positionnement** : solution la plus économique
 - **Avantages** : très fiable, pas de pile, économique
 - **Idéal pour** : construction neuve, rénovation lourde
 
 ### 2. Motorisation radio (sans fil)
 Commande par télécommande radio, sans fil entre la commande et le moteur.
-- **Prix** : 300 à 500€ par volet (pose comprise)
+- **Positionnement** : milieu de gamme, très populaire
 - **Avantages** : flexible, centralisation facile, pas de saignée murale
 - **Idéal pour** : rénovation, ajout de motorisation sur l'existant
 
 ### 3. Motorisation solaire
 Panneau photovoltaïque intégré au coffre, batterie rechargeable intégrée.
-- **Prix** : 400 à 600€ par volet (pose comprise)
+- **Positionnement** : solution éco-responsable
 - **Avantages** : 100% autonome, écologique, aucun raccordement électrique
 - **Idéal pour** : volets sans alimentation, maisons BBC, extensions
 
 ### 4. Motorisation connectée (domotique)
 Contrôle via smartphone, assistants vocaux et scénarios automatisés.
-- **Prix** : 450 à 700€ par volet (pose comprise)
+- **Positionnement** : haut de gamme, confort maximal
 - **Avantages** : contrôle à distance, programmation intelligente, intégration maison connectée
 - **Idéal pour** : amateurs de technologie, maisons connectées
 
