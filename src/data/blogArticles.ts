@@ -1094,7 +1094,7 @@ La **motorisation solaire** est idéale en haussmannien car elle ne nécessite *
 - Batterie Li-ion rechargeable
 - Fonctionne même exposition nord (grâce aux batteries longue durée)
 - **Pas besoin de l'accord de la copropriété** pour le câblage en parties communes
-- **Prix** : 450 à 650€ par volet
+- **Devis personnalisé** selon la configuration
 
 ### Solution n°3 : Installation complète volet + moteur
 
