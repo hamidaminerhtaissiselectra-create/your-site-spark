@@ -72,7 +72,7 @@ Contactez **Répar'Action Volets** si vous constatez : des bruits anormaux persi
     author: "Répar'Action Volets",
     category: "Motorisation",
     slug: "somfy-vs-bubendorff",
-    metaDescription: "Comparatif Somfy vs Bubendorff 2026 : prix, dépannage, fonctionnalités, domotique. Guide expert Répar'Action Volets pour choisir votre motorisation.",
+    metaDescription: "Comparatif Somfy vs Bubendorff 2026 : dépannage, fonctionnalités, domotique. Guide expert Répar'Action Volets pour choisir votre motorisation.",
     image: "/images/blog/somfy-vs-bubendorff.webp",
     content: `## Somfy vs Bubendorff : Le comparatif définitif 2026
 
@@ -91,16 +91,16 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 - **Innovation** : investissement massif en R&D
 
 ### Points faibles de Somfy
-- Prix généralement **15 à 25% plus élevé** que la concurrence
+- Positionnement **haut de gamme** par rapport à la concurrence
 - Installation parfois complexe pour les non-professionnels
 - Nombreuses gammes qui peuvent prêter à confusion
 
 ### Gammes principales Somfy
-| Gamme | Type | Prix indicatif |
+| Gamme | Type | Positionnement |
 |-------|------|---------------|
-| Somfy Altus RTS | Radio standard | 250-350€ |
-| Somfy Oximo io | Radio connecté | 350-500€ |
-| Somfy Sonesse | Ultra silencieux | 400-600€ |
+| Somfy Altus RTS | Radio standard | Entrée de gamme |
+| Somfy Oximo io | Radio connecté | Milieu de gamme |
+| Somfy Sonesse | Ultra silencieux | Haut de gamme |
 
 ## Bubendorff : L'expertise française premium
 
@@ -110,7 +110,7 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 - **Solutions solaires** de référence (technologie ID2)
 - **Moteurs monoblocs** intégrés : installation simplifiée
 - **Qualité premium** : fabrication 100% française
-- **Rapport qualité/prix** excellent sur les solutions solaires
+- **Excellent rapport qualité-performance** sur les solutions solaires
 - **Garantie étendue** : jusqu'à 7 ans sur les moteurs
 
 ### Points faibles de Bubendorff
@@ -122,7 +122,7 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 
 | Critère | Somfy | Bubendorff |
 |---------|-------|------------|
-| Prix moyen | 300-500€ | 250-450€ |
+| Positionnement | Haut de gamme | Premium français |
 | Domotique | ★★★★★ | ★★★☆☆ |
 | Fiabilité | ★★★★★ | ★★★★★ |
 | Solaire | ★★★☆☆ | ★★★★★ |
@@ -133,7 +133,7 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 
 **Choisissez Somfy si** : vous voulez une domotique avancée, des assistants vocaux, et un écosystème complet.
 
-**Choisissez Bubendorff si** : vous privilégiez le solaire, la fabrication française, et un excellent rapport qualité/prix.
+**Choisissez Bubendorff si** : vous privilégiez le solaire, la fabrication française, et une qualité premium.
 
 Chez **Répar'Action Volets**, nous vous accompagnons dans votre choix. Contactez-nous au **06 03 20 59 67** pour un conseil personnalisé et un devis gratuit.`
   },
@@ -145,7 +145,7 @@ Chez **Répar'Action Volets**, nous vous accompagnons dans votre choix. Contacte
     author: "Répar'Action Volets",
     category: "Motorisation",
     slug: "guide-motorisation",
-    metaDescription: "Guide complet motorisation volets roulants 2026 : types de moteurs, prix, avantages, processus d'installation. Conseils experts Répar'Action Volets.",
+    metaDescription: "Guide complet motorisation volets roulants 2026 : types de moteurs, avantages, processus d'installation. Conseils experts Répar'Action Volets.",
     image: "/images/blog/guide-motorisation.webp",
     content: `## Pourquoi motoriser vos volets roulants en 2026 ?
 
@@ -171,25 +171,25 @@ Pour les personnes à mobilité réduite ou les seniors, la motorisation rend le
 
 ### 1. Motorisation filaire
 Le moteur est commandé par un interrupteur mural fixe relié par fil.
-- **Prix** : 200 à 350€ par volet (pose comprise)
+- **Positionnement** : solution la plus économique
 - **Avantages** : très fiable, pas de pile, économique
 - **Idéal pour** : construction neuve, rénovation lourde
 
 ### 2. Motorisation radio (sans fil)
 Commande par télécommande radio, sans fil entre la commande et le moteur.
-- **Prix** : 300 à 500€ par volet (pose comprise)
+- **Positionnement** : milieu de gamme, très populaire
 - **Avantages** : flexible, centralisation facile, pas de saignée murale
 - **Idéal pour** : rénovation, ajout de motorisation sur l'existant
 
 ### 3. Motorisation solaire
 Panneau photovoltaïque intégré au coffre, batterie rechargeable intégrée.
-- **Prix** : 400 à 600€ par volet (pose comprise)
+- **Positionnement** : solution éco-responsable
 - **Avantages** : 100% autonome, écologique, aucun raccordement électrique
 - **Idéal pour** : volets sans alimentation, maisons BBC, extensions
 
 ### 4. Motorisation connectée (domotique)
 Contrôle via smartphone, assistants vocaux et scénarios automatisés.
-- **Prix** : 450 à 700€ par volet (pose comprise)
+- **Positionnement** : haut de gamme, confort maximal
 - **Avantages** : contrôle à distance, programmation intelligente, intégration maison connectée
 - **Idéal pour** : amateurs de technologie, maisons connectées
 
@@ -280,11 +280,11 @@ L'aluminium représente **65% des ventes** de volets roulants en France, et pour
 - **Durabilité** : résiste à la corrosion, aux UV et aux intempéries
 - **Esthétique** : plus de 200 coloris RAL disponibles
 - **Durée de vie** : 25 à 30 ans
-- **Prix** : 250 à 600€ par volet (hors pose)
+- **Prix** : contactez-nous pour un devis adapté à vos dimensions
 
 ### PVC — Le plus économique
 Le PVC est le choix idéal pour les budgets serrés :
-- **Prix accessible** : 150 à 350€ par volet (hors pose)
+- **Solution la plus accessible** du marché
 - **Bon isolant** : performances correctes en isolation
 - **Entretien minimal** : un simple nettoyage suffit
 - **Limite** : moins résistant que l'aluminium pour les grandes dimensions
@@ -296,18 +296,17 @@ Le bois est réservé aux amateurs de tradition et d'authenticité :
 - **Isolation naturelle** : excellentes performances
 - **Éco-responsable** : matériau renouvelable
 - **Entretien** : nécessite un traitement régulier (tous les 3-5 ans)
-- **Prix** : 400 à 800€ par volet (hors pose)
 
 ## Critère n°2 : La motorisation
 
-| Type | Avantages | Budget |
+| Type | Avantages | Positionnement |
 |------|-----------|--------|
-| Manuel (sangle) | Économique, fiable | Inclus |
-| Manuel (manivelle) | Plus confortable | +50€ |
-| Motorisé filaire | Confort, anti-effraction | +200€ |
-| Motorisé radio | Flexibilité, centralisation | +300€ |
-| Motorisé solaire | Autonome, écologique | +400€ |
-| Connecté | Domotique, smartphone | +450€ |
+| Manuel (sangle) | Économique, fiable | Essentiel |
+| Manuel (manivelle) | Plus confortable | Confort |
+| Motorisé filaire | Confort, anti-effraction | Milieu de gamme |
+| Motorisé radio | Flexibilité, centralisation | Haut de gamme |
+| Motorisé solaire | Autonome, écologique | Éco-responsable |
+| Connecté | Domotique, smartphone | Premium |
 
 ## Critère n°3 : Le type de pose
 
@@ -318,7 +317,7 @@ Le bois est réservé aux amateurs de tradition et d'authenticité :
 
 ## Notre conseil d'expert
 
-Pour une maison neuve ou une rénovation importante, nous recommandons **l'aluminium motorisé radio** : le meilleur compromis entre performance, confort et durabilité. Pour les petits budgets en rénovation, le **PVC motorisé filaire** offre un excellent rapport qualité/prix.
+Pour une maison neuve ou une rénovation importante, nous recommandons **l'aluminium motorisé radio** : le meilleur compromis entre performance, confort et durabilité. Pour les petits budgets en rénovation, le **PVC motorisé filaire** offre un excellent rapport qualité-performance.
 
 Contactez **Répar'Action Volets** au **06 03 20 59 67** pour un conseil personnalisé et un devis gratuit.`
   },
@@ -341,34 +340,34 @@ Un volet roulant bloqué est l'une des pannes les plus fréquentes et les plus s
 ### 1. Sangle cassée ou sortie de son enrouleur
 **Symptôme** : la sangle pend mollement ou ne remonte plus.
 **Solution immédiate** : ne forcez pas. Le tablier risque de tomber brusquement.
-**Réparation** : remplacement de la sangle et du mécanisme d'enrouleur (80-120€).
+**Réparation** : remplacement de la sangle et du mécanisme d'enrouleur. Intervention rapide.
 
 ### 2. Lames désalignées ou sorties des coulisses
 **Symptôme** : le volet est bloqué à mi-course, on voit un décalage dans les lames.
 **Solution immédiate** : essayez doucement de remonter le volet pour réaligner les lames.
-**Réparation** : réalignement des lames et vérification des coulisses (100-150€).
+**Réparation** : réalignement des lames et vérification des coulisses.
 
 ### 3. Moteur défaillant (volet électrique)
 **Symptôme** : aucun bruit quand vous actionnez l'interrupteur, ou un bourdonnement sans mouvement.
 **Diagnostic** : vérifiez le disjoncteur dédié, la télécommande (piles) et les fils.
-**Réparation** : remplacement du condensateur (90-150€) ou du moteur (180-350€).
+**Réparation** : remplacement du condensateur ou du moteur selon le diagnostic.
 
 ### 4. Fin de course déréglée
 **Symptôme** : le volet ne descend plus complètement ou ne remonte plus en haut.
 **Solution** : un réglage des fins de course est nécessaire.
-**Réparation** : intervention rapide de 20-30 minutes (80-120€).
+**Réparation** : intervention rapide de 20-30 minutes.
 
 ### 5. Axe d'enroulement cassé
 **Symptôme** : le volet est tombé dans le coffre et ne répond plus du tout.
 **Solution** : nécessite l'ouverture du coffre et le remplacement de l'axe.
-**Réparation** : intervention technique (150-250€).
+**Réparation** : intervention technique spécialisée.
 
 ## Ce que vous pouvez faire avant d'appeler un professionnel
 
 1. **Vérifiez l'alimentation électrique** : disjoncteur, fusible dédié au volet
 2. **Testez la télécommande** : changez les piles, essayez l'interrupteur mural
 3. **Regardez les coulisses** : un objet coincé peut bloquer le tablier
-4. **Ne forcez JAMAIS** : vous risquez d'aggraver la panne et d'augmenter le coût
+4. **Ne forcez JAMAIS** : vous risquez d'aggraver la panne
 
 ## Quand appeler Répar'Action Volets ?
 
@@ -417,16 +416,9 @@ Le double vitrage est plus résistant aux impacts et tentatives d'effraction qu'
 ### Réduction de la condensation
 Le double vitrage élimine quasiment la condensation sur les vitres en hiver, ce qui améliore la qualité de l'air intérieur.
 
-## Prix du double vitrage en 2026
+## Choisir le bon type de vitrage
 
-| Type de vitrage | Prix au m² (fourni posé) |
-|----------------|--------------------------|
-| Double vitrage standard 4/16/4 | 150 à 250€ |
-| Double vitrage argon | 200 à 300€ |
-| Double vitrage acoustique | 250 à 400€ |
-| Double vitrage anti-effraction | 300 à 500€ |
-| Double vitrage à contrôle solaire | 280 à 450€ |
-| Triple vitrage | 350 à 600€ |
+Le choix du vitrage dépend de vos besoins spécifiques : isolation thermique, phonique, sécurité ou luminosité. Contactez-nous pour un conseil personnalisé et un devis adapté à votre situation.
 
 ## Aides financières disponibles
 
@@ -493,7 +485,6 @@ Programmez l'ouverture de vos volets à 7h30 le matin et la fermeture à 22h00 l
 ### Somfy Connexoon — L'entrée de gamme
 - Fonctionnalités essentielles
 - Compatible Google Home et Alexa
-- Prix : environ 100€
 
 ### Solutions tierces
 - **Fibaro** : très personnalisable mais technique
@@ -502,13 +493,7 @@ Programmez l'ouverture de vos volets à 7h30 le matin et la fermeture à 22h00 l
 
 ## Budget domotique volets roulants
 
-| Composant | Prix |
-|-----------|------|
-| Moteur connecté (par volet) | 350-500€ |
-| Box domotique (Somfy TaHoma) | 300-400€ |
-| Capteur soleil/vent | 80-150€ |
-| Installation professionnelle | 100-200€/volet |
-| **Budget total (5 volets)** | **2 500 - 4 000€** |
+Le budget dépend du nombre de volets, du type de moteur connecté et de la box domotique choisie. Contactez-nous pour un devis personnalisé adapté à votre configuration.
 
 ## L'installation par Répar'Action Volets
 
@@ -729,14 +714,9 @@ Avec plus de 120 000 habitants, **Boulogne-Billancourt** est la commune la plus 
 - **Installation neuve** : volets sur-mesure aluminium ou PVC, pose professionnelle
 - **Vitrerie** : remplacement de vitrage simple, double ou triple, urgence bris de glace
 
-### Tarifs indicatifs à Boulogne-Billancourt
+### Devis gratuit à Boulogne-Billancourt
 
-| Intervention | Prix moyen |
-|-------------|-----------|
-| Remplacement sangle | 80-120€ |
-| Motorisation par volet | 300-500€ |
-| Remplacement moteur | 180-350€ |
-| Installation volet neuf | 350-900€ |
+Chaque intervention fait l'objet d'un devis gratuit et personnalisé. Contactez-nous pour une estimation adaptée à votre situation.
 
 Notre technicien dédié aux Hauts-de-Seine intervient à Boulogne-Billancourt, Issy-les-Moulineaux, Meudon et Sèvres. Contactez-nous au **06 03 20 59 67**.`
   },
@@ -809,13 +789,13 @@ Les maisons bourgeoises de Saint-Germain-en-Laye sont souvent équipées de gran
 
 ### Nos interventions dans les Yvelines
 
-| Service | Délai | Prix moyen |
-|---------|-------|-----------|
-| Dépannage urgent | Jour même | 100-200€ |
-| Réparation moteur | 24-48h | 180-350€ |
-| Motorisation complète | 48-72h | 300-500€/volet |
-| Installation neuve alu | Sur devis | 450-900€/volet |
-| Remplacement tablier | 24-48h | 150-300€ |
+| Service | Délai |
+|---------|-------|
+| Dépannage urgent | Jour même |
+| Réparation moteur | 24-48h |
+| Motorisation complète | 48-72h |
+| Installation neuve alu | Sur devis |
+| Remplacement tablier | 24-48h |
 
 ### Communes couvertes dans le 78
 
@@ -853,12 +833,9 @@ Les **rideaux métalliques** des commerces du boulevard Voltaire, de la rue Ober
 
 **République & Temple** : à la frontière du Marais (3e et 4e), les immeubles classés imposent des contraintes esthétiques. Nous proposons des volets aluminium laqué dans les coloris RAL autorisés par les ABF.
 
-### Tarifs dans le 11e arrondissement
+### Nos services dans le 11e
 
-- Réparation sangle encastrée : 90-130€
-- Motorisation volet existant : 300-500€
-- Déblocage rideau métallique (urgence) : 120-200€
-- Installation volet neuf sur-mesure : 400-900€
+Nous intervenons pour tous types de pannes et installations : réparation de sangles encastrées, motorisation de volets existants, déblocage de rideaux métalliques en urgence, installation sur-mesure. Devis gratuit et personnalisé.
 
 Intervention sous 24h garantie. Appelez le **06 03 20 59 67**.`
   },
@@ -895,7 +872,7 @@ Notre technicien dédié au Val-de-Marne couvre l'ensemble du département :
 
 ### Avantages de notre proximité
 
-Basés à **Fontenay-Trésigny** (77), nous sommes à moins de 30 minutes de Créteil par l'A4. Notre technicien local circule quotidiennement dans le Val-de-Marne, équipé de pièces Somfy et Bubendorff. Intervention sous 24 à 48h garantie.
+Nos techniciens locaux interviennent rapidement dans tout le Val-de-Marne, équipés de pièces Somfy et Bubendorff. Intervention sous 24 à 48h garantie.
 
 Appelez le **06 03 20 59 67** pour un devis gratuit dans le Val-de-Marne.`
   },
@@ -941,7 +918,7 @@ Le coffre est encastré dans le linteau ou dissimulé derrière un bandeau. Depu
 
 - **Avantages** : conformité ABF quasi systématique, esthétique préservée
 - **Inconvénients** : installation plus technique, nécessite parfois des travaux de maçonnerie
-- **Prix** : 600 à 1 200€ par fenêtre (pose comprise)
+- **Avantages** : conformité ABF quasi systématique, esthétique préservée
 - **Idéal pour** : hôtels particuliers rue de Turenne, rue des Francs-Bourgeois, Place des Vosges
 
 ### Option 2 : Volet roulant monobloc intérieur
@@ -950,7 +927,7 @@ Le coffre est posé à l'intérieur, contre le linteau de la fenêtre. Invisible
 
 - **Avantages** : aucune modification de façade, installation rapide
 - **Inconvénients** : légère perte de hauteur de fenêtre (15-20 cm)
-- **Prix** : 400 à 800€ par fenêtre
+- **Avantages** : aucune modification de façade, installation rapide
 - **Idéal pour** : appartements locatifs, copropriétés qui refusent les travaux en façade
 
 ### Option 3 : Volets battants en bois motorisés
@@ -959,7 +936,7 @@ Pour les puristes, on conserve l'apparence traditionnelle des volets battants en
 
 - **Avantages** : esthétique authentique, accepté sans réserve par les ABF
 - **Inconvénients** : coût élevé, entretien du bois nécessaire
-- **Prix** : 1 500 à 3 000€ par fenêtre
+- **Avantages** : esthétique authentique, accepté sans réserve par les ABF
 - **Idéal pour** : rez-de-chaussée d'hôtels particuliers, devantures historiques
 
 ## Le matériau idéal pour le Marais
@@ -1056,16 +1033,9 @@ L'exposition nord de la butte et l'humidité ambiante provoquent des **gonflemen
 - **Château-Rouge & Goutte d'Or** : sécurisation rez-de-chaussée, tarifs accessibles
 - **Place du Tertre & Sacré-Cœur** : immeubles touristiques, interventions discrètes
 
-## Tarifs spéciaux Montmartre
+## Nos services à Montmartre
 
-Contrairement à certains concurrents, nous ne facturons **aucun supplément** pour les rues en pente ou les étages sans ascenseur. Nos tarifs sont les mêmes que dans le reste de Paris.
-
-| Intervention | Prix | Délai |
-|-------------|------|-------|
-| Remplacement sangle | 80-120€ | Même jour |
-| Réalignement coulisses | 100-150€ | 24h |
-| Remplacement moteur | 180-350€ | 24-48h |
-| Motorisation volet manuel | 300-500€ | 48h |
+Contrairement à certains concurrents, nous ne facturons **aucun supplément** pour les rues en pente ou les étages sans ascenseur. Nos délais sont identiques au reste de Paris. Devis gratuit et personnalisé.
 
 Appelez le **06 03 20 59 67** — nos techniciens connaissent Montmartre comme leur poche.`
   },
@@ -1115,7 +1085,7 @@ Si vos volets sont déjà motorisés (moteur filaire) ou manuels avec un axe en 
 - **Intervention** : 1 à 2 heures par volet
 - **Aucun travail de maçonnerie**
 - **Compatible Somfy io** pour centralisation
-- **Prix** : 300 à 450€ par volet
+- **Devis gratuit** après diagnostic sur place
 
 ### Solution n°2 : Motorisation solaire (sans câblage)
 
@@ -1124,7 +1094,7 @@ La **motorisation solaire** est idéale en haussmannien car elle ne nécessite *
 - Batterie Li-ion rechargeable
 - Fonctionne même exposition nord (grâce aux batteries longue durée)
 - **Pas besoin de l'accord de la copropriété** pour le câblage en parties communes
-- **Prix** : 450 à 650€ par volet
+- **Devis personnalisé** selon la configuration
 
 ### Solution n°3 : Installation complète volet + moteur
 
@@ -1132,7 +1102,7 @@ Pour les fenêtres sans volets ou avec des volets battants à remplacer :
 - Coffre sur mesure adapté aux dimensions haussmanniennes
 - Lames alu à double paroi, coloris au choix
 - Moteur radio ou connecté intégré
-- **Prix** : 800 à 1 500€ par fenêtre (selon dimensions)
+- **Devis sur mesure** selon dimensions et motorisation
 
 ## Comment convaincre la copropriété
 
@@ -1155,12 +1125,12 @@ L'installation de volets en haussmannien passe souvent par un **vote en assembl�
 
 ## Moteurs recommandés pour haussmannien
 
-| Modèle | Couple | Type | Domotique | Prix |
-|--------|--------|------|-----------|------|
-| Somfy Oximo 40 io | 40 Nm | Radio | TaHoma, Google, Alexa | 350-450€ |
-| Somfy Sunea io Solar | 30 Nm | Solaire | TaHoma, Google, Alexa | 450-600€ |
-| Bubendorff ID2 Solar | 35 Nm | Solaire | App Bubendorff | 400-550€ |
-| Simu Hz02 | 30 Nm | Radio | Compatible Somfy | 280-380€ |
+| Modèle | Couple | Type | Domotique |
+|--------|--------|------|-----------|
+| Somfy Oximo 40 io | 40 Nm | Radio | TaHoma, Google, Alexa |
+| Somfy Sunea io Solar | 30 Nm | Solaire | TaHoma, Google, Alexa |
+| Bubendorff ID2 Solar | 35 Nm | Solaire | App Bubendorff |
+| Simu Hz02 | 30 Nm | Radio | Compatible Somfy |
 
 ## Notre expertise haussmannienne
 
@@ -1240,15 +1210,9 @@ Un volet roulant conçu pour l'isolation phonique se distingue par :
 - **Coulisses à rupture de pont** : pas de transmission directe du son par les rails
 - **Lame finale** avec joint brosse renforcé sur toute la largeur
 
-## Coût d'une solution acoustique complète
+## Solution acoustique sur mesure
 
-| Composant | Prix moyen |
-|-----------|-----------|
-| Volet alu acoustique (par fenêtre) | 500-900€ |
-| Joint triple lèvre (par fenêtre) | 30-50€ |
-| Coffre isolé | Inclus |
-| Motorisation radio | 300-450€ |
-| **Total par fenêtre** | **800-1 350€** |
+Le budget d'une solution acoustique complète dépend du nombre de fenêtres, du type de vitrage et du niveau de performance souhaité. Contactez-nous pour un devis personnalisé après diagnostic acoustique gratuit.
 
 ### Amortissement
 
@@ -1347,14 +1311,7 @@ Un seul clic sur votre télécommande ou smartphone ferme **tous les volets** et
 
 ## Budget sécurité volets à Neuilly
 
-| Solution | Prix par volet | Installation |
-|----------|---------------|-------------|
-| Volet A2P BP1 alu | 500-800€ | 2-3h |
-| Volet A2P BP2 alu extrudé | 800-1 200€ | 2-3h |
-| Volet A2P BP3 haute sécurité | 1 200-2 000€ | 3-4h |
-| Option détection d'intrusion | +150-250€ | Inclus |
-| Option simulation de présence | +100-200€ | Inclus |
-| Centralisation complète | 300-500€ | 2h |
+Le budget dépend du niveau de certification A2P souhaité, du nombre de volets et des options de sécurité (détection d'intrusion, simulation de présence, centralisation). Contactez-nous pour un audit sécurité gratuit et un devis personnalisé.
 
 ### Impact sur l'assurance habitation
 

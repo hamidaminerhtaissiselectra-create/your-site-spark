@@ -46,7 +46,7 @@ const ReparationVoletsPage = () => {
       "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }],
       "description": "Réparation rapide de tous types de volets roulants : manuels, électriques, solaires. Diagnostic gratuit, devis transparent, garantie 3 ans pièces et main d'œuvre.",
       "serviceType": "Réparation volet roulant",
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "80-350" }
+      "offers": { "@type": "Offer", "description": "Devis gratuit et personnalisé selon la panne" }
     };
     const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://reparaction-volets.fr" },
@@ -157,9 +157,9 @@ const ReparationVoletsPage = () => {
       />
       <FAQSection
         title="Questions Fréquentes — Réparation de Volets Roulants"
-        subtitle="Tout savoir sur la réparation de volets roulants : prix, délais, garantie, marques compatibles."
+        subtitle="Tout savoir sur la réparation de volets roulants : délais, garantie, marques compatibles."
         faqs={[
-          { q: "Combien coûte la réparation d'un volet roulant à Paris ?", a: "Le coût varie selon la panne : remplacement de sangle (60-120€), changement de moteur (180-350€), remplacement de lames (80-200€). Diagnostic gratuit et devis détaillé avant intervention." },
+          { q: "Combien coûte la réparation d'un volet roulant à Paris ?", a: "Le coût varie selon le type de panne et les pièces à remplacer. Nous réalisons un diagnostic gratuit et vous remettons un devis détaillé avant toute intervention. Aucune surprise ni frais cachés." },
           { q: "Réparez-vous les volets de toutes les marques ?", a: "Oui, nous intervenons sur toutes les marques : Somfy, Bubendorff, Profalux, Franciaflex, Simu, Nice, Becker, Came, Zurflüh-Feller. Pièces d'origine garanties." },
           { q: "En combien de temps mon volet sera-t-il réparé ?", a: "95% des réparations sont finalisées en 1 à 2 heures au premier passage. Nos véhicules sont équipés des pièces les plus courantes pour éviter un second déplacement." },
           { q: "Quelle garantie sur la réparation ?", a: "Toutes nos réparations sont garanties 3 ans pièces et main d'œuvre. Nous utilisons exclusivement des pièces d'origine certifiées par les fabricants." },

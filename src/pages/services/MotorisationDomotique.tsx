@@ -21,9 +21,9 @@ const motorizationTechnicianImg = "/images/assets/paris-defense-motorisation.web
 import { fadeUp, staggerItem, hoverLift, heroEntry } from "@/lib/animations";
 
 const solutions = [
-  { title: "Motorisation filaire", desc: "La solution la plus fiable et économique. Le moteur est commandé par un interrupteur mural fixe.", points: ["Prix accessible", "Très fiable", "Aucune pile à changer", "Installation simple"], prix: "à partir de 200€/volet", color: "border-service-blue/20", badgeColor: "bg-service-blue/90 text-white border-service-blue", image: motorizationWiredImg, data: ["Type : Filaire 230V", "Couple : 6 à 50 Nm", "Garantie : 5 ans"] },
-  { title: "Motorisation radio (sans fil)", desc: "Le moteur est commandé par une télécommande sans fil. Plus de flexibilité, centralisation possible.", points: ["Télécommande sans fil", "Pas de câblage mural", "Centralisation possible", "Programmation horaire"], prix: "à partir de 300€/volet", color: "border-service-rose/20", badgeColor: "bg-service-rose/90 text-white border-service-rose", image: motorizationRadioImg, data: ["Protocole : RTS / io", "Portée : 20m (murs)", "Multi-canaux"] },
-  { title: "Motorisation connectée", desc: "Contrôlez vos volets depuis votre smartphone. Compatible Somfy TaHoma, Google Home, Alexa, Apple HomeKit.", points: ["Contrôle smartphone", "Compatible assistants vocaux", "Scénarios automatisés", "Gestion à distance"], prix: "à partir de 450€/volet", color: "border-service-violet/20", badgeColor: "bg-service-violet/90 text-white border-service-violet", image: motorizationSmartImg, data: ["App : TaHoma / Home", "Feedback : Temps réel", "Cloud sécurisé"] },
+  { title: "Motorisation filaire", desc: "La solution la plus fiable et économique. Le moteur est commandé par un interrupteur mural fixe.", points: ["Solution économique", "Très fiable", "Aucune pile à changer", "Installation simple"], badge: "Essentiel", color: "border-service-blue/20", badgeColor: "bg-service-blue/90 text-white border-service-blue", image: motorizationWiredImg, data: ["Type : Filaire 230V", "Couple : 6 à 50 Nm", "Garantie : 5 ans"] },
+  { title: "Motorisation radio (sans fil)", desc: "Le moteur est commandé par une télécommande sans fil. Plus de flexibilité, centralisation possible.", points: ["Télécommande sans fil", "Pas de câblage mural", "Centralisation possible", "Programmation horaire"], badge: "Confort", color: "border-service-rose/20", badgeColor: "bg-service-rose/90 text-white border-service-rose", image: motorizationRadioImg, data: ["Protocole : RTS / io", "Portée : 20m (murs)", "Multi-canaux"] },
+  { title: "Motorisation connectée", desc: "Contrôlez vos volets depuis votre smartphone. Compatible Somfy TaHoma, Google Home, Alexa, Apple HomeKit.", points: ["Contrôle smartphone", "Compatible assistants vocaux", "Scénarios automatisés", "Gestion à distance"], badge: "Premium", color: "border-service-violet/20", badgeColor: "bg-service-violet/90 text-white border-service-violet", image: motorizationSmartImg, data: ["App : TaHoma / Home", "Feedback : Temps réel", "Cloud sécurisé"] },
 ];
 
 const MotorisationDomotiquePage = () => {
@@ -33,13 +33,13 @@ const MotorisationDomotiquePage = () => {
 
   useSEO({
     title: "Motorisation Volet Roulant Paris | Somfy, Radio, Connecté Google Home & Alexa | Répar'Action Volets",
-    description: "Motorisez vos volets manuels à Paris & IDF : moteurs filaires, radio ou connectés Somfy TaHoma. Contrôle smartphone, Google Home, Alexa. Dès 200€/volet, garantie 5 ans moteur.",
+    description: "Motorisez vos volets manuels à Paris & IDF : moteurs filaires, radio ou connectés Somfy TaHoma. Contrôle smartphone, Google Home, Alexa. Garantie 5 ans moteur, devis gratuit.",
     keywords: "motorisation volet roulant Paris, moteur volet Somfy, volet connecté Google Home, volet Alexa, domotique volet roulant, télécommande volet, motorisation sans fil",
     canonicalUrl: "https://reparaction-volets.fr/services/motorisation-domotique",
   });
 
   useEffect(() => {
-    const serviceSchema = { "@context": "https://schema.org", "@type": "Service", "name": "Motorisation & Domotique Volets Roulants", "provider": { "@type": "LocalBusiness", "@id": "https://reparaction-volets.fr/#business" }, "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }], "description": "Motorisation de volets manuels avec moteurs Somfy filaires, radio ou connectés. Compatible Google Home, Alexa.", "serviceType": "Motorisation volet roulant", "offers": { "@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "200", "highPrice": "450" }, "brand": [{ "@type": "Brand", "name": "Somfy" }, { "@type": "Brand", "name": "Bubendorff" }] };
+    const serviceSchema = { "@context": "https://schema.org", "@type": "Service", "name": "Motorisation & Domotique Volets Roulants", "provider": { "@type": "LocalBusiness", "@id": "https://reparaction-volets.fr/#business" }, "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }], "description": "Motorisation de volets manuels avec moteurs Somfy filaires, radio ou connectés. Compatible Google Home, Alexa.", "serviceType": "Motorisation volet roulant", "brand": [{ "@type": "Brand", "name": "Somfy" }, { "@type": "Brand", "name": "Bubendorff" }] };
     const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://reparaction-volets.fr" }, { "@type": "ListItem", "position": 2, "name": "Motorisation & Domotique", "item": "https://reparaction-volets.fr/services/motorisation-domotique" }] };
     const s1 = document.createElement('script'); s1.type = 'application/ld+json'; s1.innerHTML = JSON.stringify(serviceSchema); document.head.appendChild(s1);
     const s2 = document.createElement('script'); s2.type = 'application/ld+json'; s2.innerHTML = JSON.stringify(breadcrumbSchema); document.head.appendChild(s2);
@@ -133,7 +133,7 @@ const MotorisationDomotiquePage = () => {
                 <div className="relative h-56 overflow-hidden">
                   <img src={s.image} alt={s.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                  <Badge className={`absolute top-4 right-4 text-xs font-bold border ${s.badgeColor} shadow-md backdrop-blur-sm`}>{s.prix}</Badge>
+                  <Badge className={`absolute top-4 right-4 text-xs font-bold border ${s.badgeColor} shadow-md backdrop-blur-sm`}>{s.badge}</Badge>
                 </div>
                 <div className="p-6 flex-1 flex flex-col">
                   <h3 className="font-display text-lg font-bold text-foreground mb-3 group-hover:text-primary transition-colors">{s.title}</h3>
@@ -180,10 +180,10 @@ const MotorisationDomotiquePage = () => {
       />
       <FAQSection
         title="Questions Fréquentes — Motorisation & Domotique Volets Roulants"
-        subtitle="Tout savoir sur la motorisation de volets : prix, compatibilité domotique, types de moteurs, installation."
+        subtitle="Tout savoir sur la motorisation de volets : compatibilité domotique, types de moteurs, installation."
         faqs={[
           { q: "Peut-on motoriser n'importe quel volet roulant manuel ?", a: "Oui, dans 95% des cas. Un moteur tubulaire s'installe dans le tube d'enroulement existant sans modifier le coffre ni la façade. Seuls les très anciens modèles à treuil peuvent nécessiter une adaptation." },
-          { q: "Quel est le prix de la motorisation d'un volet ?", a: "Comptez à partir de 200€/volet pour un moteur filaire, 300€ pour un moteur radio, et 450€ pour un moteur connecté compatible smartphone. Remises dégressives pour plusieurs volets." },
+          { q: "Combien coûte la motorisation d'un volet ?", a: "Le coût dépend du type de moteur choisi (filaire, radio ou connecté) et du nombre de volets à motoriser. Nous proposons des remises dégressives pour plusieurs volets. Contactez-nous pour un devis gratuit et personnalisé." },
           { q: "Mes volets motorisés seront-ils compatibles Google Home / Alexa ?", a: "Oui, avec les moteurs Somfy io-homecontrol et la box TaHoma. Nous configurons entièrement votre installation : appairage des volets, création de scénarios automatisés, programmation horaire." },
           { q: "Combien de temps dure la motorisation d'un volet ?", a: "1 à 2 heures par volet. Pour un logement complet (5-8 volets), comptez une journée. L'installation est propre et ne nécessite aucun travaux de maçonnerie." },
           { q: "Que se passe-t-il en cas de coupure de courant ?", a: "Tous les moteurs que nous installons disposent d'un déverrouillage manuel de secours. Les volets solaires sont autonomes grâce à leur batterie (45 jours d'autonomie). Les moteurs radio fonctionnent aussi sur pile de secours." },

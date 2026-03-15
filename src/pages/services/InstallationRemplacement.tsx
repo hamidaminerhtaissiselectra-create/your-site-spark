@@ -26,7 +26,7 @@ const avantages = [
 
 const types = [
   { title: "Volets roulants en aluminium", desc: "Le choix le plus populaire. L'aluminium offre le meilleur rapport poids/résistance, une excellente isolation thermique et une durabilité exceptionnelle.", points: ["Léger et résistant", "Isolation thermique et phonique", "200+ coloris disponibles", "Durée de vie 20+ ans"], color: "border-service-blue/20", badge: "Populaire", badgeColor: "bg-service-blue/90 text-white border-service-blue", image: "/images/materiaux/alu.webp", data: ["Isolation : R=0.25", "Résistance : Haute", "Entretien : Nul"] },
-  { title: "Volets roulants en PVC", desc: "Solution économique et performante, les volets en PVC offrent un bon niveau d'isolation et une grande facilité d'entretien.", points: ["Prix accessible", "Entretien minimal", "Bonne isolation", "Résistance aux UV"], color: "border-service-emerald/20", badge: "Économique", badgeColor: "bg-service-emerald/90 text-white border-service-emerald", image: "/images/materiaux/pvc.webp", data: ["Isolation : R=0.22", "Résistance : Moyenne", "Entretien : Eau savonneuse"] },
+  { title: "Volets roulants en PVC", desc: "Solution économique et performante, les volets en PVC offrent un bon niveau d'isolation et une grande facilité d'entretien.", points: ["Solution économique", "Entretien minimal", "Bonne isolation", "Résistance aux UV"], color: "border-service-emerald/20", badge: "Économique", badgeColor: "bg-service-emerald/90 text-white border-service-emerald", image: "/images/materiaux/pvc.webp", data: ["Isolation : R=0.22", "Résistance : Moyenne", "Entretien : Eau savonneuse"] },
   { title: "Volets roulants solaires", desc: "Installation de volets solaires autonomes avec panneau photovoltaïque intégré. Idéaux en rénovation car ils ne nécessitent aucun raccordement électrique.", points: ["Zéro câblage", "Énergie gratuite", "Autonomie 45 jours", "Marques Somfy/Bubendorff"], color: "border-service-orange/20", badge: "Éco-Responsable", badgeColor: "bg-service-orange/90 text-white border-service-orange", image: "/images/materiaux/solaire.webp", data: ["Installation : 1h", "Batterie : 10 ans", "Économie : 100% élec"] },
 ];
 
@@ -43,7 +43,7 @@ const InstallationRemplacementPage = () => {
   });
 
   useEffect(() => {
-    const serviceSchema = { "@context": "https://schema.org", "@type": "Service", "name": "Installation & Remplacement de Volets Roulants", "provider": { "@type": "LocalBusiness", "@id": "https://reparaction-volets.fr/#business" }, "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }], "description": "Installation et remplacement de volets roulants sur-mesure en aluminium, PVC ou solaire. Éligible MaPrimeRénov'.", "serviceType": "Installation volet roulant", "offers": { "@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "350", "highPrice": "1200" } };
+    const serviceSchema = { "@context": "https://schema.org", "@type": "Service", "name": "Installation & Remplacement de Volets Roulants", "provider": { "@type": "LocalBusiness", "@id": "https://reparaction-volets.fr/#business" }, "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }], "description": "Installation et remplacement de volets roulants sur-mesure en aluminium, PVC ou solaire. Éligible MaPrimeRénov'.", "serviceType": "Installation volet roulant" };
     const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://reparaction-volets.fr" }, { "@type": "ListItem", "position": 2, "name": "Installation & Remplacement", "item": "https://reparaction-volets.fr/services/installation-remplacement-volets" }] };
     const s1 = document.createElement('script'); s1.type = 'application/ld+json'; s1.innerHTML = JSON.stringify(serviceSchema); document.head.appendChild(s1);
     const s2 = document.createElement('script'); s2.type = 'application/ld+json'; s2.innerHTML = JSON.stringify(breadcrumbSchema); document.head.appendChild(s2);
@@ -172,9 +172,9 @@ const InstallationRemplacementPage = () => {
       />
       <FAQSection
         title="Questions Fréquentes — Installation & Remplacement de Volets"
-        subtitle="Tout savoir sur l'installation de volets roulants neufs : matériaux, prix, aides financières, durée des travaux."
+        subtitle="Tout savoir sur l'installation de volets roulants neufs : matériaux, aides financières, durée des travaux."
         faqs={[
-          { q: "Quel est le prix d'une installation de volet roulant neuf ?", a: "Comptez entre 350€ et 900€ par volet pose comprise (aluminium ou PVC). Les volets solaires Somfy/Bubendorff se situent entre 600€ et 1 200€. Devis gratuit après visite technique." },
+          { q: "Combien coûte l'installation d'un volet roulant neuf ?", a: "Le coût varie selon le matériau (aluminium, PVC ou solaire), les dimensions et le type de motorisation choisi. Nous réalisons un devis gratuit et personnalisé après visite technique pour vous proposer la solution la plus adaptée à votre budget." },
           { q: "Aluminium ou PVC : quel matériau choisir ?", a: "L'aluminium offre le meilleur rapport poids/résistance, une isolation thermique supérieure et plus de 200 coloris. Le PVC est plus économique et suffisant pour les fenêtres standard. Nous vous conseillons selon vos besoins." },
           { q: "Combien de temps dure l'installation ?", a: "Comptez une demi-journée pour 1 à 3 volets, une journée complète pour 4 à 8 volets. L'installation est propre : nous protégeons vos sols et murs et nettoyons le chantier après intervention." },
           { q: "Puis-je bénéficier de MaPrimeRénov' pour mes volets ?", a: "Oui, notre certification RGE vous permet de bénéficier de MaPrimeRénov', de l'éco-PTZ et du crédit d'impôt pour l'installation de volets isolants. Nous vous accompagnons dans les démarches." },

@@ -70,9 +70,7 @@ const AboutUsPage = () => {
       "description": "Expert en dépannage, réparation, installation et motorisation de volets roulants depuis plus de 10 ans. Présent à Paris et dans toute la France.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "62 Rue Emile Zola",
-        "addressLocality": "Fontenay-Trésigny",
-        "postalCode": "77610",
+        "addressRegion": "Île-de-France",
         "addressCountry": "FR"
       },
       "telephone": "+33603205967",
