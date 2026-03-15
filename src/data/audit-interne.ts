@@ -223,10 +223,21 @@ export const auditInterne = {
   // 7. FORMULAIRE FORMSPREE
   // ──────────────────────────────────────
   formulaire: {
-    status: "✅ Connecté",
+    status: "✅ Connecté et testé",
     endpoint: "https://formspree.io/f/mlgpbozl",
     fichier: "src/components/QuoteFormSection.tsx",
     champs: ["type_service", "urgence", "nom", "email", "telephone", "adresse", "message"],
+    dernierTest: {
+      date: "2026-03-15",
+      resultat: "✅ Succès — POST 200 OK en 222ms",
+      fluxTeste: "Sélection service → Urgence → Coordonnées → Soumission",
+      donnéesEnvoyées: "type_service=Réparation de volets, urgence=Sous 48h, nom, email, tel, ville",
+      toastConfirmation: "✅ 'Demande envoyée !' affiché correctement",
+      réinitialisation: "✅ Formulaire reset à l'étape 1 après soumission",
+    },
+    corrections: [
+      "2026-03-14: Ajout type='button' sur tous les boutons de navigation/sélection pour empêcher la soumission anticipée du formulaire",
+    ],
   },
 
   // ──────────────────────────────────────
