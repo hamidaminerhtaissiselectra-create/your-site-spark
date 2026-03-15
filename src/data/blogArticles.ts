@@ -72,7 +72,7 @@ Contactez **Répar'Action Volets** si vous constatez : des bruits anormaux persi
     author: "Répar'Action Volets",
     category: "Motorisation",
     slug: "somfy-vs-bubendorff",
-    metaDescription: "Comparatif Somfy vs Bubendorff 2026 : prix, dépannage, fonctionnalités, domotique. Guide expert Répar'Action Volets pour choisir votre motorisation.",
+    metaDescription: "Comparatif Somfy vs Bubendorff 2026 : dépannage, fonctionnalités, domotique. Guide expert Répar'Action Volets pour choisir votre motorisation.",
     image: "/images/blog/somfy-vs-bubendorff.webp",
     content: `## Somfy vs Bubendorff : Le comparatif définitif 2026
 
