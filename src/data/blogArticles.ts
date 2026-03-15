@@ -91,16 +91,16 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 - **Innovation** : investissement massif en R&D
 
 ### Points faibles de Somfy
-- Prix généralement **15 à 25% plus élevé** que la concurrence
+- Positionnement **haut de gamme** par rapport à la concurrence
 - Installation parfois complexe pour les non-professionnels
 - Nombreuses gammes qui peuvent prêter à confusion
 
 ### Gammes principales Somfy
-| Gamme | Type | Prix indicatif |
+| Gamme | Type | Positionnement |
 |-------|------|---------------|
-| Somfy Altus RTS | Radio standard | 250-350€ |
-| Somfy Oximo io | Radio connecté | 350-500€ |
-| Somfy Sonesse | Ultra silencieux | 400-600€ |
+| Somfy Altus RTS | Radio standard | Entrée de gamme |
+| Somfy Oximo io | Radio connecté | Milieu de gamme |
+| Somfy Sonesse | Ultra silencieux | Haut de gamme |
 
 ## Bubendorff : L'expertise française premium
 
