@@ -416,16 +416,9 @@ Le double vitrage est plus résistant aux impacts et tentatives d'effraction qu'
 ### Réduction de la condensation
 Le double vitrage élimine quasiment la condensation sur les vitres en hiver, ce qui améliore la qualité de l'air intérieur.
 
-## Prix du double vitrage en 2026
+## Choisir le bon type de vitrage
 
-| Type de vitrage | Prix au m² (fourni posé) |
-|----------------|--------------------------|
-| Double vitrage standard 4/16/4 | 150 à 250€ |
-| Double vitrage argon | 200 à 300€ |
-| Double vitrage acoustique | 250 à 400€ |
-| Double vitrage anti-effraction | 300 à 500€ |
-| Double vitrage à contrôle solaire | 280 à 450€ |
-| Triple vitrage | 350 à 600€ |
+Le choix du vitrage dépend de vos besoins spécifiques : isolation thermique, phonique, sécurité ou luminosité. Contactez-nous pour un conseil personnalisé et un devis adapté à votre situation.
 
 ## Aides financières disponibles
 
