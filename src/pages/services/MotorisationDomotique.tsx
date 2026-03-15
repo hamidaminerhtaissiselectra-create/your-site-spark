@@ -33,7 +33,7 @@ const MotorisationDomotiquePage = () => {
 
   useSEO({
     title: "Motorisation Volet Roulant Paris | Somfy, Radio, Connecté Google Home & Alexa | Répar'Action Volets",
-    description: "Motorisez vos volets manuels à Paris & IDF : moteurs filaires, radio ou connectés Somfy TaHoma. Contrôle smartphone, Google Home, Alexa. Dès 200€/volet, garantie 5 ans moteur.",
+    description: "Motorisez vos volets manuels à Paris & IDF : moteurs filaires, radio ou connectés Somfy TaHoma. Contrôle smartphone, Google Home, Alexa. Garantie 5 ans moteur, devis gratuit.",
     keywords: "motorisation volet roulant Paris, moteur volet Somfy, volet connecté Google Home, volet Alexa, domotique volet roulant, télécommande volet, motorisation sans fil",
     canonicalUrl: "https://reparaction-volets.fr/services/motorisation-domotique",
   });
