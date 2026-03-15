@@ -317,7 +317,7 @@ Le bois est réservé aux amateurs de tradition et d'authenticité :
 
 ## Notre conseil d'expert
 
-Pour une maison neuve ou une rénovation importante, nous recommandons **l'aluminium motorisé radio** : le meilleur compromis entre performance, confort et durabilité. Pour les petits budgets en rénovation, le **PVC motorisé filaire** offre un excellent rapport qualité/prix.
+Pour une maison neuve ou une rénovation importante, nous recommandons **l'aluminium motorisé radio** : le meilleur compromis entre performance, confort et durabilité. Pour les petits budgets en rénovation, le **PVC motorisé filaire** offre un excellent rapport qualité-performance.
 
 Contactez **Répar'Action Volets** au **06 03 20 59 67** pour un conseil personnalisé et un devis gratuit.`
   },
