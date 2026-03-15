@@ -72,8 +72,8 @@ const Footer = () => (
 
         <div>
           <h4 className="font-display font-semibold text-sm mb-4 uppercase tracking-wider">Contact</h4>
-          <ul className="space-y-3 text-sm text-primary-foreground/70" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 shrink-0" /> <span itemProp="streetAddress">{content.company.contact.address.split(',')[0]}</span>, <span itemProp="postalCode">77610</span> <span itemProp="addressLocality">Fontenay-Trésigny</span></li>
+          <ul className="space-y-3 text-sm text-primary-foreground/70">
+            <li className="flex items-center gap-2"><MapPin className="h-4 w-4 shrink-0" /> Paris & Île-de-France — Proche de chez vous</li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 shrink-0" /><a href={`tel:${phoneClean}`} className="hover:text-primary-foreground transition-colors" itemProp="telephone">{content.company.contact.phoneMobile}</a></li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 shrink-0" /> <span itemProp="email">{content.company.contact.email}</span></li>
           </ul>

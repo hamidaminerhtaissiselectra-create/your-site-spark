@@ -484,7 +484,7 @@ const ParisPage = () => {
         "description": "Expert en dépannage et réparation de volets roulants dans tous les arrondissements de Paris. Intervention rapide, diagnostic gratuit et garantie 3 ans.",
         "url": "https://reparaction-volets.fr/zones-intervention/paris",
         "telephone": phoneNumber.replace(/\s/g, ''),
-        "priceRange": "€€",
+        "priceRange": "Devis gratuit",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "FR",

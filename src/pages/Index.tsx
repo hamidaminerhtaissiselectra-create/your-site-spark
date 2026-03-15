@@ -30,11 +30,6 @@ const Index = () => {
       "name": "Comment faire réparer un volet roulant à Paris ?",
       "description": "Guide étape par étape pour faire réparer votre volet roulant par un professionnel certifié à Paris et en Île-de-France.",
       "totalTime": "PT2H",
-      "estimatedCost": {
-        "@type": "MonetaryAmount",
-        "currency": "EUR",
-        "value": "80-350"
-      },
       "step": [
         { "@type": "HowToStep", "position": 1, "name": "Contactez Répar'Action Volets", "text": "Appelez le 06 03 20 59 67 ou remplissez le formulaire de devis en ligne. Un conseiller technique vous répond sous 2 heures." },
         { "@type": "HowToStep", "position": 2, "name": "Diagnostic gratuit", "text": "Un technicien certifié RGE se déplace chez vous pour diagnostiquer la panne et vous remettre un devis détaillé, gratuit et sans engagement." },

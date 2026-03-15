@@ -10,7 +10,7 @@ export const content = {
       email: "contact@reparaction-volets.fr",
       phoneMobile: "06 03 20 59 67",
       phoneFixe: "06 03 20 59 67",
-      address: "62 Rue Emile Zola, 77610 Fontenay-Trésigny",
+      address: "Paris & Île-de-France",
     },
     social: {
       linkedin: "https://www.linkedin.com/company/reparaction-volets",

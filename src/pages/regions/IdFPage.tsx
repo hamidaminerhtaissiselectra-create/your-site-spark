@@ -344,7 +344,7 @@ const IdFPage = () => {
         "description": "Expert en dépannage et réparation de volets roulants en Île-de-France. 7 départements couverts, plus de 50 villes.",
         "url": "https://reparaction-volets.fr/zones-intervention/ile-de-france",
         "telephone": phoneNumber.replace(/\s/g, ''),
-        "priceRange": "€€",
+        "priceRange": "Devis gratuit",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "FR",
