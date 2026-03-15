@@ -17,7 +17,7 @@ const HeroSection = () => {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
-  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
+  const opacity = useTransform(scrollYProgress, [0, 1], [1, 1]);
   
   return (
     <section ref={ref} id="accueil" className="relative min-h-screen flex items-center overflow-hidden">
