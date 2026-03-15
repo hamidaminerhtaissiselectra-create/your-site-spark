@@ -122,7 +122,7 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 
 | Critère | Somfy | Bubendorff |
 |---------|-------|------------|
-| Prix moyen | 300-500€ | 250-450€ |
+| Positionnement | Haut de gamme | Premium français |
 | Domotique | ★★★★★ | ★★★☆☆ |
 | Fiabilité | ★★★★★ | ★★★★★ |
 | Solaire | ★★★☆☆ | ★★★★★ |
