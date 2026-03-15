@@ -133,7 +133,7 @@ Choisir entre **Somfy** et **Bubendorff** est l'une des décisions les plus impo
 
 **Choisissez Somfy si** : vous voulez une domotique avancée, des assistants vocaux, et un écosystème complet.
 
-**Choisissez Bubendorff si** : vous privilégiez le solaire, la fabrication française, et un excellent rapport qualité/prix.
+**Choisissez Bubendorff si** : vous privilégiez le solaire, la fabrication française, et une qualité premium.
 
 Chez **Répar'Action Volets**, nous vous accompagnons dans votre choix. Contactez-nous au **06 03 20 59 67** pour un conseil personnalisé et un devis gratuit.`
   },
