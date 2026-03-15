@@ -789,13 +789,13 @@ Les maisons bourgeoises de Saint-Germain-en-Laye sont souvent équipées de gran
 
 ### Nos interventions dans les Yvelines
 
-| Service | Délai | Prix moyen |
-|---------|-------|-----------|
-| Dépannage urgent | Jour même | 100-200€ |
-| Réparation moteur | 24-48h | 180-350€ |
-| Motorisation complète | 48-72h | 300-500€/volet |
-| Installation neuve alu | Sur devis | 450-900€/volet |
-| Remplacement tablier | 24-48h | 150-300€ |
+| Service | Délai |
+|---------|-------|
+| Dépannage urgent | Jour même |
+| Réparation moteur | 24-48h |
+| Motorisation complète | 48-72h |
+| Installation neuve alu | Sur devis |
+| Remplacement tablier | 24-48h |
 
 ### Communes couvertes dans le 78
 
