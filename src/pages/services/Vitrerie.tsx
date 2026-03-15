@@ -22,6 +22,7 @@ const typesVitrage = [
   { title: "Vitrage anti-effraction", desc: "Vitrage feuilleté de sécurité avec film PVB. Résiste aux tentatives d'intrusion et protège contre les blessures.", features: ["Retarde les intrusions", "Sécurité anti-blessure", "Norme EN 356"], color: "border-service-rose/20", badgeColor: "bg-service-rose/90 text-white border-service-rose", image: "/images/vitrage/feuillete.webp", data: ["Classe : P2A à P5A", "Film PVB renforcé", "Anti-éclats"] },
   { title: "Vitrage dépoli & Intimité", desc: "Vitrage traité à l'acide pour un aspect translucide. Laisse passer la lumière tout en préservant votre intimité.", features: ["Intimité totale", "Lumière naturelle", "Design moderne"], color: "border-service-violet/20", badgeColor: "bg-service-violet/90 text-white border-service-violet", image: "/images/vitrage/depoli.webp", data: ["Finition : Dépoli acide", "Usage : SDB / Bureau", "Facile d'entretien"] },
   { title: "Vitrage acoustique", desc: "Composition asymétrique spécifique pour réduire drastiquement les nuisances sonores. Idéal pour les zones urbaines.", features: ["Réduction -35 dB", "Zones urbaines", "Composition asymétrique"], color: "border-service-cyan/20", badgeColor: "bg-service-cyan/90 text-white border-service-cyan", image: "/images/vitrage/phonique.webp", data: ["Atténuation : 35-40 dB", "Verre asymétrique", "Confort phonique"] },
+  { title: "Vitrine de magasin", desc: "Installation et remplacement de vitrines pour commerces. Verre feuilleté de sécurité haute résistance.", features: ["Sécurité renforcée", "Transparence maximale", "Sur-mesure"], color: "border-service-blue/20", badgeColor: "bg-service-blue/90 text-white border-service-blue", image: "/images/assets/service-vitrerie.webp", data: ["Usage : Commercial", "Verre : Feuilleté 44.2/SP10", "Installation : Rapide"] },
 ];
 
 const urgences = [
@@ -36,15 +37,15 @@ const VitreriePage = () => {
   const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "25%"]);
 
   useSEO({
-    title: "Vitrerie Paris | Remplacement Vitrage Urgence 7j/7, Double Vitrage & Anti-Effraction | Répar'Action Volets",
-    description: "Vitrier professionnel à Paris & IDF : remplacement vitrage en urgence 7j/7, double vitrage thermique, vitrage anti-effraction feuilleté, acoustique. Prise en charge assurance. Devis gratuit.",
-    keywords: "vitrerie Paris, remplacement vitrage urgence, bris de glace Paris, double vitrage prix, vitrage anti-effraction, vitrier urgence 7j/7, remplacement vitre IDF",
+    title: "Vitrerie & Vitrine Paris | Remplacement Vitrage Urgence 7j/7, Double Vitrage & Vitrine Magasin | Répar'Action Volets",
+    description: "Vitrier professionnel à Paris & IDF : remplacement vitrage et vitrine en urgence 7j/7, double vitrage thermique, vitrage anti-effraction, vitrine de magasin. Prise en charge assurance. Devis gratuit.",
+    keywords: "vitrerie Paris, vitrine magasin Paris, remplacement vitrage urgence, bris de glace Paris, double vitrage prix, vitrage anti-effraction, vitrier urgence 7j/7, remplacement vitre IDF",
     canonicalUrl: "https://reparaction-volets.fr/services/vitrerie-remplacement-vitrage",
   });
 
   useEffect(() => {
-    const serviceSchema = { "@context": "https://schema.org", "@type": "Service", "name": "Vitrerie & Remplacement de Vitrage", "provider": { "@type": "LocalBusiness", "@id": "https://reparaction-volets.fr/#business" }, "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }], "description": "Remplacement de vitrage en urgence 7j/7 : double vitrage, anti-effraction, acoustique, dépoli. Prise en charge assurance.", "serviceType": "Vitrerie remplacement vitrage" };
-    const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://reparaction-volets.fr" }, { "@type": "ListItem", "position": 2, "name": "Vitrerie & Vitrage", "item": "https://reparaction-volets.fr/services/vitrerie-remplacement-vitrage" }] };
+    const serviceSchema = { "@context": "https://schema.org", "@type": "Service", "name": "Vitrerie, Vitrage & Vitrine", "provider": { "@type": "LocalBusiness", "@id": "https://reparaction-volets.fr/#business" }, "areaServed": [{ "@type": "City", "name": "Paris" }, { "@type": "State", "name": "Île-de-France" }], "description": "Remplacement de vitrage et vitrine en urgence 7j/7 : double vitrage, anti-effraction, vitrine de magasin, acoustique. Prise en charge assurance.", "serviceType": "Vitrerie remplacement vitrage" };
+    const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://reparaction-volets.fr" }, { "@type": "ListItem", "position": 2, "name": "Vitrerie, Vitrage & Vitrine", "item": "https://reparaction-volets.fr/services/vitrerie-remplacement-vitrage" }] };
     const s1 = document.createElement('script'); s1.type = 'application/ld+json'; s1.innerHTML = JSON.stringify(serviceSchema); document.head.appendChild(s1);
     const s2 = document.createElement('script'); s2.type = 'application/ld+json'; s2.innerHTML = JSON.stringify(breadcrumbSchema); document.head.appendChild(s2);
     return () => { document.head.removeChild(s1); document.head.removeChild(s2); };
@@ -62,17 +63,17 @@ const VitreriePage = () => {
           <div className="flex items-center gap-2 text-foreground/60 text-sm mb-6">
             <Link to="/" className="hover:text-foreground transition-colors">Accueil</Link>
             <ChevronRight className="h-4 w-4" />
-            <span>Vitrerie & Remplacement de Vitrage</span>
+            <span>Vitrerie, Vitrage & Vitrine</span>
           </div>
           <motion.div {...heroEntry(0)} className="max-w-3xl">
             <Badge variant="accent" className="gap-2 px-3 py-1.5 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
               <GlassWater className="h-3.5 w-3.5" /> Urgence 7j/7
             </Badge>
             <h1 className="font-display text-4xl md:text-5xl font-extrabold leading-tight mb-6 text-foreground">
-              Vitrerie & Remplacement de Vitrage — Paris & Île-de-France
+              Vitrerie, Vitrage & Vitrine — Paris & Île-de-France
             </h1>
             <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-              Bris de glace, vitrage cassé ou remplacement programmé ? Nos vitriers professionnels interviennent en urgence 7 jours sur 7.
+              Bris de glace, vitrage cassé, vitrine de magasin endommagée ou remplacement programmé ? Nos vitriers professionnels interviennent en urgence 7 jours sur 7.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <Button size="lg" variant="accent" asChild className="px-8 py-7 text-lg font-bold rounded-full shadow-xl transition-all duration-300 hover:scale-105">
@@ -166,14 +167,14 @@ const VitreriePage = () => {
       </section>
 
       <ProcessSection 
-        title="Comment Se Déroule un Remplacement de Vitrage ?"
-        subtitle="De la mise en sécurité immédiate à la pose du vitrage définitif, voici les étapes de notre intervention vitrerie."
-        detail="En cas de bris de glace, nous sécurisons d'abord votre logement avec un vitrage provisoire, puis commandons le vitrage définitif aux dimensions exactes. Pose soignée et nettoyage complet du chantier."
+        title="Comment Se Déroule un Remplacement de Vitrage ou de Vitrine ?"
+        subtitle="De la mise en sécurité immédiate à la pose du vitrage ou de la vitrine définitive, voici les étapes de notre intervention."
+        detail="En cas de bris de glace ou de vitrine endommagée, nous sécurisons d'abord votre logement ou commerce avec une fermeture provisoire, puis commandons le vitrage définitif aux dimensions exactes. Pose soignée et nettoyage complet du chantier."
       />
       <QuoteFormSection />
-      <RepairShowcaseSection image={glazierTechnicianImg} title="Vitrerie d'Excellence — Île de la Cité & Bords de Seine"
-        description="Des vitraux historiques de l'Île de la Cité aux baies vitrées modernes des quais de Seine, notre expertise en vitrerie couvre tous les besoins. Remplacement, sécurisation et installation avec une précision millimétrée."
-        highlights={["Expertise des vitrages patrimoniaux et contemporains", "Mise en sécurité immédiate après bris de glace", "Vitrages certifiés conformes aux normes en vigueur", "Accompagnement pour la prise en charge assurance"]}
+      <RepairShowcaseSection image={glazierTechnicianImg} title="Vitrerie & Vitrine d'Excellence — Île de la Cité & Bords de Seine"
+        description="Des vitraux historiques de l'Île de la Cité aux vitrines de magasins modernes des quais de Seine, notre expertise couvre tous les besoins. Remplacement, sécurisation et installation de vitrines avec une précision millimétrée."
+        highlights={["Expertise des vitrages patrimoniaux et vitrines commerciales", "Mise en sécurité immédiate après bris de glace ou vitrine", "Vitrages et vitrines certifiés conformes aux normes", "Accompagnement pour la prise en charge assurance"]}
         stats={[
           { icon: Clock, label: "Urgence vitrage", value: "2h", color: "text-service-rose", iconBg: "bg-service-rose/10" },
           { icon: Thermometer, label: "Isolation", value: "-40% pertes", color: "text-service-blue", iconBg: "bg-service-blue/10" },
@@ -181,25 +182,25 @@ const VitreriePage = () => {
         ]}
       />
       <FAQSection
-        title="Questions Fréquentes — Vitrerie & Remplacement de Vitrage"
-        subtitle="Tout savoir sur le remplacement de vitrage : urgences, types de vitrage, prise en charge assurance."
+        title="Questions Fréquentes — Vitrerie, Vitrage & Vitrine"
+        subtitle="Tout savoir sur le remplacement de vitrage et de vitrine : urgences, types de verre, prise en charge assurance."
         faqs={[
-          { q: "En combien de temps intervenez-vous pour un bris de glace ?", a: "En urgence, nous intervenons sous 2 heures à Paris pour sécuriser votre logement. La pose du vitrage provisoire est immédiate. Le vitrage définitif est posé sous 24 à 72 heures selon le type commandé." },
-          { q: "Combien coûte un remplacement de double vitrage ?", a: "Le coût dépend des dimensions, du type de vitrage et de la configuration de votre fenêtre. Nous établissons un devis gratuit et personnalisé après prise de mesures. Contactez-nous pour une estimation adaptée à votre situation." },
-          { q: "Mon assurance prend-elle en charge le bris de glace ?", a: "Oui, la garantie bris de glace est incluse dans la majorité des assurances habitation. Nous établissons un devis conforme aux exigences des assureurs et vous accompagnons dans la déclaration de sinistre." },
-          { q: "Quelle différence entre vitrage feuilleté et trempé ?", a: "Le vitrage feuilleté (anti-effraction) contient un film PVB qui retient les éclats en cas de bris. Le vitrage trempé est 5 fois plus résistant mais se brise en petits morceaux. Le feuilleté est recommandé pour la sécurité." },
-          { q: "Remplacez-vous les vitrages de baies vitrées et portes-fenêtres ?", a: "Oui, nous intervenons sur tous types d'ouvertures : fenêtres, baies vitrées, portes-fenêtres, vérandas, vitrines de commerce. Prise de mesures précise et pose certifiée." },
-          { q: "Le double vitrage améliore-t-il vraiment l'isolation ?", a: "Oui, le double vitrage réduit les pertes de chaleur de 40% par rapport au simple vitrage. Avec un gaz argon entre les deux vitres, l'isolation thermique est encore renforcée. Éligible à MaPrimeRénov'." },
+          { q: "En combien de temps intervenez-vous pour un bris de glace ou de vitrine ?", a: "En urgence, nous intervenons sous 2 heures à Paris pour sécuriser votre logement ou commerce. La pose d'une fermeture provisoire est immédiate. Le vitrage ou la vitrine définitive est posé sous 24 à 72 heures selon le type commandé." },
+          { q: "Combien coûte un remplacement de vitrine de magasin ?", a: "Le coût d'une vitrine dépend des dimensions, de l'épaisseur du verre feuilleté de sécurité et de la configuration de l'installation. Nous établissons un devis gratuit et personnalisé après prise de mesures sur place." },
+          { q: "Mon assurance prend-elle en charge le bris de vitrine ?", a: "Oui, la garantie bris de glace pour les commerces couvre généralement les vitrines. Nous établissons un devis conforme aux exigences des assureurs pour faciliter votre remboursement." },
+          { q: "Quel type de verre est obligatoire pour une vitrine ?", a: "Pour la sécurité des commerces, un verre feuilleté (type 44.2 ou SP10) est fortement recommandé ou exigé par les assurances pour retarder les effractions et protéger les passants." },
+          { q: "Remplacez-vous les vitrages de baies vitrées et vitrines ?", a: "Oui, nous intervenons sur tous types d'ouvertures : fenêtres, baies vitrées, portes-fenêtres, vérandas et vitrines de commerce. Prise de mesures précise et pose certifiée." },
+          { q: "Le double vitrage est-il possible pour une vitrine ?", a: "Absolument, nous installons des vitrines en double vitrage pour améliorer l'isolation thermique de votre commerce tout en conservant une sécurité maximale." },
         ]}
       />
-      <TestimonialsSection priorityService="vitrerie" title="Avis Clients — Vitrerie & Remplacement de Vitrage" subtitle="Témoignages de nos clients après un remplacement de vitrage en urgence ou programmé." />
+      <TestimonialsSection priorityService="vitrerie" title="Avis Clients — Vitrerie, Vitrage & Vitrine" subtitle="Témoignages de nos clients après un remplacement de vitrage ou de vitrine en urgence ou programmé." />
 
       {/* Maillage interne contextuel */}
       <section className="py-12 bg-section-gradient">
         <div className="container mx-auto px-4 text-center">
           <motion.div {...fadeUp}>
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">Services Complémentaires</h2>
-            <p className="text-muted-foreground mb-6 max-w-xl mx-auto">Découvrez nos autres services pour vos volets roulants et votre vitrerie.</p>
+            <p className="text-muted-foreground mb-6 max-w-xl mx-auto">Découvrez nos autres services pour vos volets roulants, vitrages et vitrines.</p>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
               {[
                 { label: "Réparation de volets", href: "/services/reparation-volets-roulants" },
@@ -216,7 +217,7 @@ const VitreriePage = () => {
               <p className="w-full text-sm font-semibold text-foreground mb-2">📖 Articles utiles :</p>
               {[
                 { label: "Sécurité et cambriolage", slug: "securite-volets-cambriolage" },
-                { label: "Vitrerie : tout savoir", slug: "vitrerie-remplacement-vitrage" },
+                { label: "Vitrerie & Vitrine : tout savoir", slug: "vitrerie-remplacement-vitrage" },
                 { label: "Économie d'énergie", slug: "economie-energie-volets-roulants" },
               ].map((link) => (
                 <Link key={link.slug} to={`/blog/${link.slug}`} className="text-xs text-accent hover:text-accent/80 font-medium underline-offset-4 hover:underline transition-colors">

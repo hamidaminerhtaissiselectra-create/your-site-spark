@@ -27,6 +27,10 @@ export const useSEO = ({
     const setMetaTag = (name: string, content: string, property = false) => {
       const attr = property ? 'property' : 'name';
       let meta = document.querySelector(`meta[${attr}="${name}"]`);
+      
+      // Si la balise existe déjà et que le contenu est identique, on ne fait rien
+      if (meta && meta.getAttribute('content') === content) return;
+
       if (!meta) {
         meta = document.createElement('meta');
         meta.setAttribute(attr, name);
@@ -77,7 +81,6 @@ export const useSEO = ({
 
       // Twitter Card tags
       setMetaTag('twitter:card', 'summary_large_image');
-      setMetaTag('twitter:site', '@reparactionvolets');
       setMetaTag('twitter:title', title);
       setMetaTag('twitter:description', description);
       setMetaTag('twitter:image', ogImage);

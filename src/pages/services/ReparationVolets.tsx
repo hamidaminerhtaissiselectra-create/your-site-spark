@@ -174,13 +174,13 @@ const ReparationVoletsPage = () => {
         <div className="container mx-auto px-4 text-center">
           <motion.div {...fadeUp}>
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">Services Complémentaires</h2>
-            <p className="text-muted-foreground mb-6 max-w-xl mx-auto">Découvrez nos autres services pour vos volets roulants et votre vitrerie.</p>
+            <p className="text-muted-foreground mb-6 max-w-xl mx-auto">Découvrez nos autres services pour vos volets roulants, vitrages et vitrines.</p>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
               {[
                 { label: "Dépannage Express", href: "/services/depannage-express" },
                 { label: "Installation & Remplacement", href: "/services/installation-remplacement-volets" },
                 { label: "Motorisation & Domotique", href: "/services/motorisation-domotique" },
-                { label: "Vitrerie & Vitrage", href: "/services/vitrerie-remplacement-vitrage" },
+                { label: "Vitrerie, Vitrage & Vitrine", href: "/services/vitrerie-remplacement-vitrage" },
               ].map((s) => (
                 <Link key={s.href} to={s.href} className="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-accent hover:border-accent hover:shadow-md transition-all duration-300">
                   {s.label}

@@ -39,8 +39,8 @@ const services = [
     cardBorder: "hover:border-service-violet/40", image: imgMotorisation, link: "/services/motorisation-domotique",
   },
   {
-    icon: GlassWater, title: "Vitrerie & Vitrage",
-    desc: "Remplacement de vitrage simple, double ou triple. Intervention d'urgence pour bris de glace 7j/7.",
+    icon: GlassWater, title: "Vitrerie, Vitrage & Vitrine",
+    desc: "Remplacement de vitrage simple, double ou triple, et installation de vitrines de magasin. Intervention d'urgence pour bris de glace 7j/7.",
     badge: "Urgence 7j/7", badgeColor: "bg-service-emerald/90 text-white border-service-emerald",
     iconBg: "bg-service-emerald", iconShadow: "shadow-[0_4px_14px_hsl(160,70%,40%,0.35)]",
     cardBorder: "hover:border-service-emerald/40", image: imgVitrerie, link: "/services/vitrerie-remplacement-vitrage",

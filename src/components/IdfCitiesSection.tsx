@@ -207,7 +207,7 @@ const IdfCitiesSection = () => {
             <h3 className="font-display text-xl font-bold text-foreground">Villes d'Île-de-France</h3>
           </div>
           <p className="text-sm text-muted-foreground mb-6 max-w-2xl">
-            De Versailles à Créteil, en passant par Boulogne-Billancourt et Saint-Denis, nos équipes couvrent les départements 77, 78, 91, 92, 93, 94 et 95. Intervention garantie sous 48 heures avec devis gratuit sur place.
+            De Versailles à Créteil, en passant par Boulogne-Billancourt et Saint-Denis, nos équipes couvrent l'ensemble de la région parisienne. Intervention garantie sous 48 heures avec devis gratuit sur place.
           </p>
         </motion.div>
 

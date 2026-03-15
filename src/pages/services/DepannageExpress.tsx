@@ -72,7 +72,7 @@ const DepannageExpressPage = () => {
               Dépannage Express Volets Roulants — Paris & Île-de-France
             </h1>
             <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-              Volet bloqué ? Moteur en panne ? Vitre cassée ? Notre service de dépannage express intervient dans les plus brefs délais pour rétablir la sécurité et le confort de votre habitat. Disponible 7j/7, diagnostic gratuit, pièces en stock.
+              Volet bloqué ? Moteur en panne ? Vitre ou vitrine cassée ? Notre service de dépannage express intervient dans les plus brefs délais pour rétablir la sécurité et le confort de votre habitat ou commerce. Disponible 7j/7, diagnostic gratuit, pièces en stock.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <Button size="lg" variant="accent" asChild className="px-8 py-7 text-lg font-bold rounded-full shadow-xl transition-all duration-300 hover:scale-105">
@@ -185,13 +185,13 @@ const DepannageExpressPage = () => {
         <div className="container mx-auto px-4 text-center">
           <motion.div {...fadeUp}>
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">Services Complémentaires</h2>
-            <p className="text-muted-foreground mb-6 max-w-xl mx-auto">Découvrez nos autres services pour vos volets roulants et votre vitrerie.</p>
+            <p className="text-muted-foreground mb-6 max-w-xl mx-auto">Découvrez nos autres services pour vos volets roulants, vitrages et vitrines.</p>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
               {[
                 { label: "Réparation de volets", href: "/services/reparation-volets-roulants" },
                 { label: "Installation & Remplacement", href: "/services/installation-remplacement-volets" },
                 { label: "Motorisation & Domotique", href: "/services/motorisation-domotique" },
-                { label: "Vitrerie & Vitrage", href: "/services/vitrerie-remplacement-vitrage" },
+                { label: "Vitrerie, Vitrage & Vitrine", href: "/services/vitrerie-remplacement-vitrage" },
               ].map((s) => (
                 <Link key={s.href} to={s.href} className="px-4 py-2 rounded-full border border-border bg-card text-sm font-semibold text-accent hover:border-accent hover:shadow-md transition-all duration-300">
                   {s.label}

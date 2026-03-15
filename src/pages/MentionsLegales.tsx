@@ -17,8 +17,7 @@ const sections = [
     content: (
       <p className="text-muted-foreground leading-relaxed">
         <strong className="text-foreground">Répar'Action Volets</strong><br />
-        62 Rue Emile Zola<br />
-        77610 Fontenay-Trésigny<br />
+        Paris & Île-de-France<br />
         France<br />
         <strong className="text-foreground">SIRET :</strong> 982 156 978 000 16
       </p>

@@ -127,7 +127,7 @@ const ZonesIntervention = () => {
               transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
               className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl leading-relaxed"
             >
-              Basés à Fontenay-Trésigny, nous intervenons sur l'ensemble du territoire français pour garantir le bon fonctionnement de vos volets roulants. Intervention express en Île-de-France et dans les grandes métropoles. Nos techniciens utilisent la géolocalisation intelligente pour optimiser les délais d'intervention et vous proposer le meilleur service.
+              Présents à Paris et dans toute l'Île-de-France, nous intervenons sur l'ensemble du territoire français pour garantir le bon fonctionnement de vos volets roulants. Intervention express en Île-de-France et dans les grandes métropoles. Nos techniciens utilisent la géolocalisation intelligente pour optimiser les délais d'intervention et vous proposer le meilleur service.
             </motion.p>
             
             <motion.div 
@@ -255,7 +255,7 @@ const ZonesIntervention = () => {
                 </Badge>
                 <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-foreground">Intervention en Île-de-France</h2>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Nous couvrons l'intégralité de la région parisienne avec une présence locale dans tous les départements. Nos techniciens circulent quotidiennement dans les départements 77, 78, 91, 92, 93, 94 et 95.
+                  Nous couvrons l'intégralité de la région parisienne avec une présence locale dans tous les départements. Nos techniciens circulent quotidiennement dans toute l'Île-de-France pour assurer un service de proximité.
                 </p>
                 <p className="text-muted-foreground mb-8 leading-relaxed">
                   Que vous soyez à Versailles, Créteil, Cergy ou Melun, nous disposons de ressources locales pour intervenir rapidement avec des solutions adaptées.

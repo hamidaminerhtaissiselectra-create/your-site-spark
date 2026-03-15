@@ -293,8 +293,8 @@ const IdFPage = () => {
 
   useSEO({
     title: "Dépannage & Réparation Volets Île-de-France | 7 Départements | Répar'Action",
-    description: "Expert en dépannage et réparation de volets roulants en Île-de-France. Intervention rapide dans les départements 77, 78, 91, 92, 93, 94, 95. Dépannage express et installation.",
-    keywords: "réparation volets Île-de-France, volets roulants IdF, dépannage volets 77 78 91 92 93 94 95, installation volets",
+    description: "Expert en dépannage et réparation de volets roulants en Île-de-France. Intervention rapide dans toute la région parisienne. Dépannage express et installation.",
+    keywords: "réparation volets Île-de-France, volets roulants IdF, dépannage volets Paris et banlieue, installation volets",
     canonicalUrl: "https://reparaction-volets.fr/zones-intervention/ile-de-france",
   });
 
@@ -320,14 +320,14 @@ const IdFPage = () => {
   ];
 
   const faqs = [
-    { question: "Quel est le délai d'intervention en banlieue parisienne ?", answer: "En petite couronne (92, 93, 94), nous intervenons sous 24 à 48h. En grande couronne (77, 78, 91, 95), comptez 48 à 72h. Pour les urgences de sécurité (volet bloqué ouvert, effraction), nous traitons la demande en priorité quel que soit le département." },
-    { question: "Y a-t-il des frais de déplacement en Île-de-France ?", answer: "Aucun frais de déplacement en petite couronne (92, 93, 94). En grande couronne, un forfait déplacement peut s'appliquer selon la distance. Ce forfait est offert si vous acceptez le devis. Diagnostic toujours gratuit." },
-    { question: "Couvrez-vous tous les départements de l'Île-de-France ?", answer: "Oui, nous couvrons les 7 départements : Seine-et-Marne (77), Yvelines (78), Essonne (91), Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94) et Val-d'Oise (95). Plus de 50 villes desservies." },
+    { question: "Quel est le délai d'intervention en banlieue parisienne ?", answer: "En petite couronne, nous intervenons sous 24 à 48h. En grande couronne, comptez 48 à 72h. Pour les urgences de sécurité (volet bloqué ouvert, effraction), nous traitons la demande en priorité dans toute l'Île-de-France." },
+    { question: "Y a-t-il des frais de déplacement en Île-de-France ?", answer: "Nous proposons des conditions de déplacement avantageuses dans toute l'Île-de-France. Le diagnostic est toujours gratuit et sans engagement. Contactez-nous pour une estimation personnalisée de votre intervention." },
+    { question: "Couvrez-vous tous les départements de l'Île-de-France ?", answer: "Oui, nous couvrons l'intégralité des départements de la région parisienne : Seine-et-Marne, Yvelines, Essonne, Hauts-de-Seine, Seine-Saint-Denis, Val-de-Marne et Val-d'Oise. Plus de 50 villes desservies." },
     { question: "Intervenez-vous en résidence et en copropriété ?", answer: "Oui, nous intervenons aussi bien chez les particuliers que dans les copropriétés et les résidences. Nous pouvons fournir des devis conformes aux exigences des syndics et des bailleurs sociaux." },
     { question: "Quelles marques de volets roulants réparez-vous en IdF ?", answer: "Nos techniciens sont experts sur toutes les marques : Somfy, Bubendorff, Profalux, Franciaflex, Simu, Nice, Becker, Came, Zurflüh-Feller. Nous disposons de pièces de rechange dans nos véhicules pour les réparations au premier passage." },
     { question: "Proposez-vous des contrats de maintenance pour les copropriétés ?", answer: "Oui, nous proposons des contrats de maintenance préventive pour les copropriétés et les gestionnaires immobiliers. Entretien annuel de tous les volets, vérification des moteurs, lubrification des coulisses. Tarifs dégressifs selon le nombre de volets." },
     // Voice search optimized FAQs
-    { question: "Où trouver un réparateur de volets roulants en Île-de-France ?", answer: "Répar'Action Volets couvre toute l'Île-de-France avec plus de 50 villes desservies. Nos techniciens locaux interviennent dans les Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94), Yvelines (78), Essonne (91), Seine-et-Marne (77) et Val-d'Oise (95)." },
+    { question: "Où trouver un réparateur de volets roulants en Île-de-France ?", answer: "Répar'Action Volets couvre toute l'Île-de-France avec plus de 50 villes desservies. Nos techniciens locaux interviennent dans les Hauts-de-Seine, la Seine-Saint-Denis, le Val-de-Marne, les Yvelines, l'Essonne, la Seine-et-Marne et le Val-d'Oise." },
     { question: "Comment motoriser un volet roulant manuel en banlieue parisienne ?", answer: "Nos techniciens motorisent vos volets manuels en 1 à 2h par volet, sans travaux de maçonnerie. Moteurs Somfy, Simu ou Bubendorff. Compatible smartphone via TaHoma, Google Home et Alexa. Devis gratuit en Île-de-France." },
     { question: "Mon volet roulant fait du bruit en Île-de-France, que faire ?", answer: "Un volet bruyant nécessite souvent une lubrification des coulisses, un recalibrage du tablier ou un changement de lames abîmées. Nos techniciens diagnostiquent gratuitement la cause et interviennent rapidement dans toute l'Île-de-France." }
   ];
@@ -410,7 +410,7 @@ const IdFPage = () => {
               Dépannage & Réparation de Volets en <span className="text-accent">Île-de-France</span>
             </motion.h1>
             <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.4 }} className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-              Répar'Action Volets assure le dépannage et la réparation de volets roulants dans toute la région parisienne. Nos techniciens couvrent les 7 départements (77, 78, 91, 92, 93, 94, 95). Diagnostic gratuit et garantie 3 ans.
+              Répar'Action Volets assure le dépannage et la réparation de volets roulants dans toute la région parisienne. Nos techniciens couvrent l'intégralité de l'Île-de-France. Diagnostic gratuit et garantie 3 ans.
             </motion.p>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.6 }} className="flex flex-wrap gap-4 mb-12">
               <Button size="lg" variant="accent" asChild className="px-8 py-7 text-lg font-bold rounded-full shadow-xl transition-all duration-300 hover:scale-105">

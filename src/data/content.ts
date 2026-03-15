@@ -18,9 +18,9 @@ export const content = {
       instagram: "https://www.instagram.com/reparactionvolets",
     },
     geo: {
-      lat: 48.7052,
-      lng: 2.8873,
-      rayon: "Île-de-France et toute la France",
+      lat: 48.8566,
+      lng: 2.3522,
+      rayon: "Paris, Île-de-France et toute la France",
     },
     siret: "982 156 978 000 16",
     dateCreation: "2014",
@@ -45,7 +45,7 @@ export const content = {
   // --- Section Services ---
   services: {
     title: "Dépannage, Réparation, Installation & Motorisation de Volets Roulants",
-    subtitle: "Répar'Action Volets propose 5 services spécialisés : dépannage express, installation complète, réparation de volets roulants, motorisation & domotique, vitrerie & vitrage.",
+    subtitle: "Répar'Action Volets propose 5 services spécialisés : dépannage express, installation complète, réparation de volets roulants, motorisation & domotique, vitrerie, vitrage & vitrine.",
     items: [
       {
         title: "Dépannage Express",
@@ -72,8 +72,8 @@ export const content = {
         link: "/services/motorisation-domotique",
       },
       {
-        title: "Vitrerie & Vitrage",
-        description: "Remplacement de vitrage simple, double ou triple. Intervention d'urgence pour bris de glace 7j/7.",
+        title: "Vitrerie, Vitrage & Vitrine",
+        description: "Remplacement de vitrage simple, double ou triple, et installation de vitrines de magasin. Intervention d'urgence pour bris de glace 7j/7.",
         icon: "GlassWater",
         link: "/services/vitrerie-remplacement-vitrage",
       },

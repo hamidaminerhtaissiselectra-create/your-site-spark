@@ -233,7 +233,7 @@ const BlogPage = () => {
               <FileText className="h-3.5 w-3.5" /> Devis Personnalisé
             </span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
-              Un projet de volets ou vitrerie ? Obtenez votre devis
+              Un projet de volets, vitrage ou vitrine ? Obtenez votre devis
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               Nos experts analysent chaque demande individuellement. Recevez un devis détaillé sous 2h, adapté à vos besoins réels — sans engagement.
@@ -280,7 +280,7 @@ const BlogPage = () => {
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
               Avis Clients — Retours d'Expérience Vérifiés
             </h2>
-            <p className="text-muted-foreground mb-3">Ce que disent nos clients après une intervention Répar'Action Volets.</p>
+            <p className="text-muted-foreground mb-3">Ce que disent nos clients après une intervention de réparation de volets ou de vitrine.</p>
           </motion.div>
 
           <motion.div {...fadeUp} className="flex flex-wrap justify-center gap-5 mb-12">
@@ -339,13 +339,13 @@ const BlogPage = () => {
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
               Questions Fréquentes sur nos Articles & Services
             </h2>
-            <p className="text-muted-foreground">Retrouvez les réponses aux questions posées par les lecteurs de notre blog expert volets et vitrerie.</p>
+            <p className="text-muted-foreground">Retrouvez les réponses aux questions posées par les lecteurs de notre blog expert volets, vitrage et vitrine.</p>
           </motion.div>
 
           <motion.div {...fadeUp} className="max-w-3xl mx-auto">
             <Accordion type="single" collapsible className="space-y-3">
               {[
-                { q: "Vos articles de blog sont-ils rédigés par des professionnels ?", a: "Oui, chaque article est rédigé ou validé par nos techniciens certifiés RGE, forts de plus de 10 ans d'expérience terrain en dépannage, réparation, installation et motorisation de volets roulants à Paris et en Île-de-France." },
+                { q: "Vos articles de blog sont-ils rédigés par des professionnels ?", a: "Oui, chaque article est rédigé ou validé par nos techniciens certifiés RGE, forts de plus de 10 ans d'expérience terrain en dépannage, réparation, installation et motorisation de volets roulants, ainsi qu'en vitrerie et vitrine à Paris et en Île-de-France." },
                 { q: "Puis-je diagnostiquer ma panne de volet grâce à vos guides ?", a: "Nos guides pratiques vous aident à identifier les pannes courantes (sangle cassée, moteur en panne, lames abîmées). Pour un diagnostic précis et une réparation durable, nous recommandons l'intervention d'un technicien qualifié — le diagnostic est offert." },
                 { q: "Quelles marques de volets recommandez-vous dans vos comparatifs ?", a: "Nos comparatifs couvrent les marques leaders du marché : Somfy, Bubendorff, Profalux, Franciaflex, Simu et Nice. Nous testons et installons ces marques quotidiennement, ce qui nous permet de donner des avis objectifs basés sur notre expérience terrain." },
                 { q: "Proposez-vous des conseils pour réduire sa facture énergétique ?", a: "Oui, plusieurs articles traitent de l'isolation thermique via les volets roulants, du choix du vitrage performant et des aides financières disponibles (MaPrimeRénov', éco-PTZ). Des gestes simples comme la motorisation programmée peuvent réduire votre consommation de 15 à 25%." },

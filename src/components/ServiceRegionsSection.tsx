@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { MapPin, ArrowRight, ChevronDown, ChevronUp } from "lucide-react";
 import { Link } from "react-router-dom";
-
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
+import { useState, forwardRef } from "react";
 
 interface Region {
   name: string;
@@ -15,8 +14,8 @@ interface Region {
 }
 
 const activeRegions: Region[] = [
-  { name: "Paris (75)", depts: "75001 à 75020", color: "bg-service-blue/5 border-service-blue/20", image: "/images/zones/paris.webp", link: "/zones-intervention/paris", active: true },
-  { name: "Île-de-France", depts: "77, 78, 91, 92, 93, 94, 95", color: "bg-service-emerald/5 border-service-emerald/20", image: "/images/zones/ile-de-france.webp", link: "/zones-intervention/ile-de-france", active: true },
+  { name: "Paris", depts: "Tous arrondissements", color: "bg-service-blue/5 border-service-blue/20", image: "/images/zones/paris.webp", link: "/zones-intervention/paris", active: true },
+  { name: "Île-de-France", depts: "Toute la région", color: "bg-service-emerald/5 border-service-emerald/20", image: "/images/zones/ile-de-france.webp", link: "/zones-intervention/ile-de-france", active: true },
   { name: "Rive Gauche & Ouest", depts: "75005-07, 75014-15, 92", color: "bg-service-violet/5 border-service-violet/20", image: "/images/zones/rive-gauche.webp", link: "/zones-intervention/paris", active: true },
   { name: "Rive Droite — Centre & Nord", depts: "75001-04, 75008-11, 75016-20", color: "bg-service-orange/5 border-service-orange/20", image: "/images/zones/rive-droite.webp", link: "/zones-intervention/paris", active: true },
   { name: "Petite Couronne", depts: "92, 93, 94", color: "bg-service-rose/5 border-service-rose/20", image: "/images/zones/petite-couronne.webp", link: "/zones-intervention/ile-de-france", active: true },
@@ -52,8 +51,8 @@ const RegionCard = ({ r, i }: { r: Region; i: number }) => {
         </h3>
       </div>
       <div className={`flex-1 p-5 rounded-b-2xl border border-t-0 transition-all duration-500 card-shadow group-hover:card-shadow-hover ${r.color}`}>
-        <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-          Répar'Action Volets intervient en {r.name} pour la réparation, l'installation et la motorisati...
+        <p className="text-sm text-muted-foreground leading-relaxed mb-3 line-clamp-3">
+          Répar'Action Volets intervient en {r.name} pour la réparation, l'installation et la motorisation de vos volets roulants, avec une expertise reconnue et des interventions rapides.
         </p>
         <div className="text-[10px] text-muted-foreground font-medium mb-4">
           <span className="px-2 py-1 rounded-md bg-black/5">{r.depts.split(",").length} départements</span>
@@ -85,21 +84,20 @@ const RegionCard = ({ r, i }: { r: Region; i: number }) => {
   );
 };
 
-const ServiceRegionsSection = ({ regionsFirst = false }: { regionsFirst?: boolean }) => {
+const ServiceRegionsSection = forwardRef<HTMLElement, { regionsFirst?: boolean }>((props, ref) => {
+  const { regionsFirst = false } = props;
   const [showMore, setShowMore] = useState(false);
   const [showSecondary, setShowSecondary] = useState(false);
 
-  // When regionsFirst is true, show allFranceRegions first, then Paris/IDF
   const primaryRegions = regionsFirst ? allFranceRegions : activeRegions;
   const secondaryRegions = regionsFirst ? activeRegions : allFranceRegions;
   
-  // Show only 1 row initially (4 items on lg)
   const firstRowCount = 4;
   const primaryFirstRow = primaryRegions.slice(0, firstRowCount);
   const primaryRest = primaryRegions.slice(firstRowCount);
 
   return (
-    <section className="py-16 bg-section-gradient relative overflow-hidden">
+    <section ref={ref} className="py-16 bg-section-gradient relative overflow-hidden">
       <div className="container mx-auto px-4 relative">
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
@@ -119,14 +117,12 @@ const ServiceRegionsSection = ({ regionsFirst = false }: { regionsFirst?: boolea
           </p>
         </motion.div>
 
-        {/* Primary regions - first row always visible */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
           {primaryFirstRow.map((r, i) => (
             <RegionCard key={r.name} r={r} i={i} />
           ))}
         </div>
 
-        {/* Primary regions - remaining rows expandable */}
         {primaryRest.length > 0 && (
           <>
             {showMore ? (
@@ -152,7 +148,6 @@ const ServiceRegionsSection = ({ regionsFirst = false }: { regionsFirst?: boolea
           </>
         )}
 
-        {/* Secondary regions - expandable */}
         {!showSecondary ? (
           <div className="text-center">
             <Button onClick={() => setShowSecondary(true)} variant="outline" className="rounded-full border-accent/30 text-accent hover:bg-accent/10">
@@ -190,6 +185,8 @@ const ServiceRegionsSection = ({ regionsFirst = false }: { regionsFirst?: boolea
       </div>
     </section>
   );
-};
+});
+
+ServiceRegionsSection.displayName = "ServiceRegionsSection";
 
 export default ServiceRegionsSection;

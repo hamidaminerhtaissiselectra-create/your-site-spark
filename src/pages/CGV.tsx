@@ -16,7 +16,7 @@ const articles = [
   { num: "4", icon: CreditCard, title: "Paiement", color: "bg-service-violet", text: "Le paiement s'effectue à l'issue de l'intervention, selon les modalités convenues (chèque, virement, espèces). Une facture vous sera remise." },
   { num: "5", icon: Shield, title: "Garanties", color: "bg-service-cyan", text: "Toutes nos interventions sont garanties 3 ans pièces et main d'œuvre. Assurance responsabilité civile professionnelle couvrant tous nos travaux." },
   { num: "6", icon: AlertTriangle, title: "Responsabilité", color: "bg-service-rose", text: "Répar'Action Volets décline toute responsabilité pour les dommages causés par une mauvaise utilisation ou un manque d'entretien de la part du client après l'intervention." },
-  { num: "7", icon: Scale, title: "Annulation et résiliation", color: "bg-service-blue", text: "Les demandes d'annulation doivent être effectuées au moins 48 heures avant l'intervention prévue. Passé ce délai, des frais de dépannage peuvent s'appliquer." },
+  { num: "7", icon: Scale, title: "Annulation et résiliation", color: "bg-service-blue", text: "Les demandes d'annulation doivent être effectuées au moins 48 heures avant l'intervention prévue afin de nous permettre de réorganiser nos tournées." },
   { num: "8", icon: Award, title: "Conformité légale", color: "bg-service-emerald", text: "Répar'Action Volets est certifiée RGE et Qualibat. Tous nos travaux respectent les normes en vigueur et les réglementations applicables." },
   { num: "9", icon: Scale, title: "Litiges", color: "bg-service-orange", text: "Tout litige sera résolu à l'amiable. En cas de désaccord, les parties acceptent la juridiction des tribunaux compétents." },
 ];

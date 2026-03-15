@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
-import { Wrench, RefreshCcw, GlassWater, Cpu, LayoutGrid, AlertTriangle, ArrowRight, ArrowLeft, CheckCircle2, HelpCircle, Settings } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Wrench, RefreshCcw, GlassWater, Cpu, LayoutGrid, AlertTriangle, ArrowRight, ArrowLeft, CheckCircle2, HelpCircle, Settings, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -12,7 +12,7 @@ const servicesByMode: Record<FormMode, { id: string; icon: React.ElementType; la
   devis: [
     { id: "reparation", icon: Wrench, label: "Réparation de volets", iconBg: "bg-service-blue", borderColor: "border-service-blue/40" },
     { id: "remplacement", icon: RefreshCcw, label: "Remplacement de volets", iconBg: "bg-service-rose", borderColor: "border-service-rose/40" },
-    { id: "vitrerie", icon: GlassWater, label: "Vitrerie & Vitrage", iconBg: "bg-service-emerald", borderColor: "border-service-emerald/40" },
+    { id: "vitrerie", icon: GlassWater, label: "Vitrerie, Vitrage & Vitrine", iconBg: "bg-service-emerald", borderColor: "border-service-emerald/40" },
     { id: "motorisation", icon: Cpu, label: "Motorisation & Domotique", iconBg: "bg-service-violet", borderColor: "border-service-violet/40" },
     { id: "installation", icon: LayoutGrid, label: "Installation complète", iconBg: "bg-service-cyan", borderColor: "border-service-cyan/40" },
     { id: "autre", icon: HelpCircle, label: "Autre demande", iconBg: "bg-muted-foreground/60", borderColor: "border-muted-foreground/30" },
@@ -45,17 +45,66 @@ const QuoteFormSection = () => {
   const [email, setEmail] = useState("");
   const [city, setCity] = useState("");
   const [loading, setLoading] = useState(false);
+  
+  // Captcha state
+  const [captchaValue, setCaptchaValue] = useState("");
+  const [captchaInput, setCaptchaInput] = useState("");
+  const [isCaptchaValid, setIsCaptchaValid] = useState(false);
 
-  const resetForm = () => { setStep(1); setSelectedService(""); setUrgency(""); setDetails(""); setName(""); setPhone(""); setEmail(""); setCity(""); };
+  const generateCaptcha = () => {
+    const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+    let result = "";
+    for (let i = 0; i < 5; i++) {
+      result += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    setCaptchaValue(result);
+    setCaptchaInput("");
+    setIsCaptchaValid(false);
+  };
+
+  useEffect(() => {
+    generateCaptcha();
+  }, []);
+
+  useEffect(() => {
+    if (captchaInput.toUpperCase() === captchaValue) {
+      setIsCaptchaValid(true);
+    } else {
+      setIsCaptchaValid(false);
+    }
+  }, [captchaInput, captchaValue]);
+
+  const resetForm = () => { 
+    setStep(1); 
+    setSelectedService(""); 
+    setUrgency(""); 
+    setDetails(""); 
+    setName(""); 
+    setPhone(""); 
+    setEmail(""); 
+    setCity(""); 
+    generateCaptcha();
+  };
+
   const switchMode = (m: FormMode) => { setMode(m); resetForm(); };
+
   const canNext = () => {
     if (step === 1) return selectedService !== "";
     if (step === 2) return urgency !== "";
-    if (step === 3) return name.trim() !== "" && /^[\d\s.+()-]{10,}$/.test(phone) && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    if (step === 3) return name.trim() !== "" && /^[\d\s.+()-]{10,}$/.test(phone) && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) && isCaptchaValid;
     return false;
   };
 
   const handleSubmit = async () => {
+    if (!isCaptchaValid) {
+      toast({
+        title: "❌ Erreur de sécurité",
+        description: "Veuillez saisir correctement le code de vérification.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     setLoading(true);
     try {
       const response = await fetch("https://formspree.io/f/mlgpbozl", {
@@ -115,10 +164,11 @@ const QuoteFormSection = () => {
           <div id="devis" className="scroll-mt-20" />
           <div className="h-1.5 rounded-t-2xl" style={{ background: "linear-gradient(to right, hsl(var(--service-blue)), hsl(var(--accent)), hsl(var(--service-orange)))" }} />
 
-          <form className="bg-card rounded-b-2xl shadow-2xl border border-border/50 overflow-hidden" onSubmit={(e) => { e.preventDefault(); if (step === 3 && canNext()) handleSubmit(); }}>
+          <div className="bg-card rounded-b-2xl shadow-2xl border border-border/50 overflow-hidden">
             {/* Mode tabs */}
             <div className="flex justify-center gap-3 pt-8 pb-4 px-6">
               <motion.button
+                type="button"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => switchMode("devis")}
@@ -131,6 +181,7 @@ const QuoteFormSection = () => {
                 📋 Demande de Devis
               </motion.button>
               <motion.button
+                type="button"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => switchMode("intervention")}
@@ -173,6 +224,7 @@ const QuoteFormSection = () => {
                         return (
                           <motion.button
                             key={s.id}
+                            type="button"
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: idx * 0.05 }}
@@ -212,6 +264,7 @@ const QuoteFormSection = () => {
                         return (
                           <motion.button
                             key={o.id}
+                            type="button"
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: idx * 0.05 }}
@@ -257,9 +310,35 @@ const QuoteFormSection = () => {
                         </motion.div>
                         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
                           <label className="block text-sm font-bold text-foreground mb-1.5">Ville / Code postal</label>
-                          <Input value={city} onChange={(e) => setCity(e.target.value)} placeholder="Fontenay-Trésigny (77)" className="bg-background border-border/80 text-foreground font-medium" />
+                          <Input value={city} onChange={(e) => setCity(e.target.value)} placeholder="Paris (75015)" className="bg-background border-border/80 text-foreground font-medium" />
                         </motion.div>
                       </div>
+
+                      {/* Captcha de sécurité */}
+                      <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="bg-muted/50 p-4 rounded-xl border border-border/50">
+                        <label className="block text-sm font-bold text-foreground mb-2 flex items-center gap-2">
+                          <ShieldCheck className="h-4 w-4 text-accent" /> Vérification de sécurité *
+                        </label>
+                        <div className="flex items-center gap-4">
+                          <div className="bg-accent text-white font-mono font-bold text-xl px-4 py-2 rounded-lg tracking-widest select-none shadow-inner">
+                            {captchaValue}
+                          </div>
+                          <div className="flex-1">
+                            <Input 
+                              value={captchaInput} 
+                              onChange={(e) => setCaptchaInput(e.target.value)} 
+                              placeholder="Saisir le code" 
+                              className={`bg-background font-bold uppercase tracking-widest ${isCaptchaValid ? "border-service-emerald focus-visible:ring-service-emerald" : "border-border"}`}
+                            />
+                          </div>
+                          <Button type="button" variant="ghost" size="sm" onClick={generateCaptcha} className="text-xs text-muted-foreground hover:text-accent">
+                            Actualiser
+                          </Button>
+                        </div>
+                        <p className="text-[10px] text-muted-foreground mt-2 italic">
+                          Veuillez saisir les 5 caractères affichés pour valider l'envoi.
+                        </p>
+                      </motion.div>
                     </div>
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }} className="mt-6 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
                       <span className="inline-flex items-center gap-1"><CheckCircle2 className="h-3.5 w-3.5 text-service-emerald" /> Sans engagement</span>
@@ -274,27 +353,27 @@ const QuoteFormSection = () => {
               <div className="flex justify-between mt-8 pt-6 border-t border-border/50">
                 {step > 1 ? (
                   <motion.div whileHover={{ x: -5 }} whileTap={{ scale: 0.95 }}>
-                    <Button variant="ghost" onClick={() => setStep(step - 1)} className="gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                    <Button type="button" variant="ghost" onClick={() => setStep(step - 1)} className="gap-2 text-muted-foreground hover:text-foreground transition-colors">
                       <ArrowLeft className="h-4 w-4" /> Retour
                     </Button>
                   </motion.div>
                 ) : <div />}
                 {step < 3 ? (
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                    <Button onClick={() => setStep(step + 1)} disabled={!canNext()} className="bg-accent text-white hover:bg-accent/90 gap-2 px-8 rounded-full shadow-lg shadow-accent/20 transition-all disabled:bg-accent/60 disabled:text-white/80 disabled:opacity-100">
+                    <Button type="button" onClick={() => setStep(step + 1)} disabled={!canNext()} className="bg-accent text-white hover:bg-accent/90 gap-2 px-8 rounded-full shadow-lg shadow-accent/20 transition-all disabled:bg-accent/60 disabled:text-white/80 disabled:opacity-100">
                       Continuer <ArrowRight className="h-4 w-4" />
                     </Button>
                   </motion.div>
                 ) : (
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                    <Button onClick={handleSubmit} disabled={!canNext() || loading} className="bg-hero-gradient text-white gap-2 font-semibold px-8 rounded-full shadow-lg hover:shadow-xl transition-all">
+                    <Button type="button" onClick={handleSubmit} disabled={!canNext() || loading} className="bg-hero-gradient text-white gap-2 font-semibold px-8 rounded-full shadow-lg hover:shadow-xl transition-all">
                       {loading ? "Envoi en cours..." : mode === "devis" ? "Recevoir mon devis gratuit" : "Demander l'intervention"} {!loading && <ArrowRight className="h-4 w-4" />}
                     </Button>
                   </motion.div>
                 )}
               </div>
             </div>
-          </form>
+          </div>
         </motion.div>
       </div>
     </section>

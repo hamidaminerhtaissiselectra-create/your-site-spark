@@ -211,42 +211,42 @@ Contactez-nous au **06 03 20 59 67** pour un devis gratuit.`
     author: "Répar'Action Volets",
     category: "Tarifs",
     slug: "prix-reparation-volet-roulant",
-    metaDescription: "Prix dépannage et réparation volet roulant 2026 : tarifs détaillés par type de panne. De 80€ à 300€. Devis gratuit Répar'Action Volets.",
+    metaDescription: "Tarifs dépannage et réparation volet roulant 2026 : découvrez nos prix compétitifs par type de panne. Devis gratuit et transparent Répar'Action Volets.",
     image: "/images/blog/prix-reparation.webp",
     content: `## Combien coûte la réparation d'un volet roulant en 2026 ?
 
-Le coût de réparation d'un volet roulant varie entre **80€ et 300€** en moyenne, selon la nature de la panne et le type de volet. Chez **Répar'Action Volets**, nous pratiquons des tarifs transparents avec devis gratuit systématique.
+Le coût de réparation d'un volet roulant dépend de la nature de la panne et du type de volet. Chez **Répar'Action Volets**, nous pratiquons des tarifs compétitifs et transparents avec un diagnostic et un devis gratuit systématique avant toute intervention.
 
-## Tarifs indicatifs par type de panne
+## Nos solutions par type de panne
 
-### Remplacement de sangle ou manivelle : 80€ à 120€
-La panne la plus courante et la moins coûteuse. La sangle s'use naturellement avec le temps et les frottements. Le remplacement prend environ 30 minutes.
+### Remplacement de sangle ou manivelle
+C'est l'une des pannes les plus courantes. La sangle s'use naturellement avec le temps. Nous proposons des forfaits de remplacement avantageux incluant la pièce et la main d'œuvre.
 
-### Remplacement de lames cassées : 100€ à 180€
-Le prix dépend du nombre de lames à remplacer et du matériau (PVC, aluminium). Nous remplaçons les lames à l'identique, sans avoir à changer tout le tablier.
+### Remplacement de lames cassées
+Le tarif est ajusté selon le nombre de lames à remplacer et le matériau (PVC, aluminium). Nous remplaçons les lames à l'identique pour un résultat esthétique parfait au meilleur prix.
 
-### Réparation ou remplacement de moteur : 180€ à 350€
-Le moteur est la pièce la plus coûteuse. Le prix varie selon la marque (Somfy, Bubendorff, SIMU) et la puissance nécessaire.
+### Réparation ou remplacement de moteur
+Le moteur est une pièce technique essentielle. Nous intervenons sur toutes les marques (Somfy, Bubendorff, SIMU) avec des tarifs préférentiels sur les pièces d'origine.
 
-### Réglage des fins de course : 80€ à 120€
-Un volet qui ne s'arrête pas à la bonne position nécessite un réglage des butées. Intervention rapide de 20 à 30 minutes.
+### Réglage des fins de course
+Un volet qui ne s'arrête pas à la bonne position nécessite un réglage précis. C'est une intervention rapide que nous réalisons à un tarif très favorable.
 
-### Remplacement du condensateur : 90€ à 150€
-Symptôme typique : le volet émet un bourdonnement mais ne bouge pas. Le condensateur est une pièce d'usure du moteur.
+### Remplacement du condensateur
+Si votre volet bourdonne sans bouger, le condensateur est souvent en cause. Son remplacement est une solution économique pour redonner vie à votre moteur sans le changer.
 
-### Déblocage d'urgence : 100€ à 200€
-Volet bloqué en position ouverte ou fermée. Nous intervenons le jour même pour les urgences de sécurité.
+### Déblocage d'urgence
+Volet bloqué en position ouverte ou fermée ? Nous intervenons en priorité pour votre sécurité avec une tarification claire annoncée avant le début des travaux.
 
-## Tableau récapitulatif des tarifs
+## Tableau récapitulatif des interventions
 
-| Type de panne | Prix moyen | Durée intervention |
+| Type de panne | Solution | Durée estimée |
 |--------------|-----------|-------------------|
-| Sangle/manivelle | 80-120€ | 30 min |
-| Lames cassées | 100-180€ | 45 min |
-| Moteur | 180-350€ | 1-2h |
-| Fins de course | 80-120€ | 20-30 min |
-| Condensateur | 90-150€ | 30-45 min |
-| Déblocage urgence | 100-200€ | 30-60 min |
+| Sangle/manivelle | Remplacement standard | 30 min |
+| Lames cassées | Remplacement à l'identique | 45 min |
+| Moteur | Réparation ou échange standard | 1-2h |
+| Fins de course | Réglage électronique/manuel | 20-30 min |
+| Condensateur | Échange de la pièce d'usure | 30-45 min |
+| Déblocage urgence | Mise en sécurité immédiate | 30-60 min |
 
 ## Comment éviter les arnaques ?
 
@@ -379,14 +379,14 @@ Un volet roulant bloqué est l'une des pannes les plus fréquentes et les plus s
 Nous intervenons **sous 48h** (le jour même pour les urgences de sécurité). Diagnostic gratuit, devis transparent. Appelez le **06 03 20 59 67**.`
   },
   {
-    id: "double-vitrage-avantages-prix",
-    title: "Double Vitrage : Avantages, Prix et Aides Financières 2026",
-    excerpt: "Le double vitrage est essentiel pour l'isolation de votre maison. Découvrez ses avantages, les prix pratiqués, le dépannage en urgence et les aides disponibles.",
+    id: "double-vitrage-avantages-tarifs",
+    title: "Double Vitrage : Avantages, Tarifs et Aides Financières 2026",
+    excerpt: "Le double vitrage est essentiel pour l'isolation de votre maison. Découvrez ses avantages, nos tarifs compétitifs, le dépannage en urgence et les aides disponibles.",
     date: "10 février 2026",
     author: "Répar'Action Volets",
     category: "Vitrerie",
-    slug: "double-vitrage-avantages-prix",
-    metaDescription: "Double vitrage 2026 : avantages, prix, dépannage bris de glace et aides financières. Guide complet isolation thermique et phonique. Répar'Action Volets.",
+    slug: "double-vitrage-avantages-tarifs",
+    metaDescription: "Double vitrage 2026 : avantages, tarifs, dépannage bris de glace et aides financières. Guide complet isolation thermique et phonique. Répar'Action Volets.",
     image: "/images/blog/vitrerie.webp",
     content: `## Double vitrage : tout savoir en 2026
 
@@ -423,13 +423,13 @@ Le choix du vitrage dépend de vos besoins spécifiques : isolation thermique, p
 ## Aides financières disponibles
 
 ### MaPrimeRénov' 2026
-Jusqu'à **100€ par fenêtre** pour le remplacement de simple vitrage par du double vitrage, sous conditions de revenus.
+Bénéficiez d'une aide financière significative pour le remplacement de simple vitrage par du double vitrage, selon vos conditions de revenus.
 
 ### TVA réduite à 5,5%
-Pour les logements de plus de 2 ans, la TVA sur les travaux d'amélioration énergétique est réduite à 5,5% au lieu de 20%.
+Pour les logements de plus de 2 ans, la TVA sur les travaux d'amélioration énergétique est réduite à 5,5% au lieu de 20%, une économie immédiate sur votre facture.
 
 ### Éco-prêt à taux zéro
-Financez jusqu'à **50 000€** de travaux de rénovation énergétique sans payer d'intérêts.
+Financez vos travaux de rénovation énergétique sans payer d'intérêts grâce à ce prêt avantageux.
 
 ### CEE (Certificats d'Économie d'Énergie)
 Les fournisseurs d'énergie versent des primes pour les travaux d'isolation, y compris le remplacement de vitrage.
@@ -480,7 +480,7 @@ Programmez l'ouverture de vos volets à 7h30 le matin et la fermeture à 22h00 l
 - Compatible avec plus de 200 marques
 - Application intuitive et complète
 - Google Home, Alexa, Apple HomeKit
-- Prix de la box : environ 350€
+- Prix de la box : tarif avantageux sur demande
 
 ### Somfy Connexoon — L'entrée de gamme
 - Fonctionnalités essentielles
@@ -539,13 +539,10 @@ En combinant des volets roulants performants avec un double vitrage, vous pouvez
 
 - **Hiver** : réduction de 20 à 25% des déperditions par les fenêtres
 - **Été** : réduction de 50 à 70% des apports de chaleur solaire
-- **Facture annuelle** : économies de 200 à 500€ selon la taille du logement
+- **Facture annuelle** : réalisez des économies significatives sur votre budget chauffage et climatisation.
 
 ### Exemple concret
-Pour un appartement de 80m² avec 6 fenêtres :
-- Facture chauffage avant : ~1 500€/an
-- Facture chauffage après installation de volets alu motorisés : ~1 150€/an
-- **Économie annuelle** : 350€, soit un amortissement en 4-5 ans
+Pour un appartement standard, l'installation de volets alu motorisés permet de réduire drastiquement la consommation énergétique, offrant un amortissement rapide de votre investissement grâce aux économies réalisées chaque année.
 
 ## Comment maximiser l'isolation ?
 
@@ -557,9 +554,9 @@ Pour un appartement de 80m² avec 6 fenêtres :
 ## Les aides pour améliorer votre isolation
 
 L'installation de volets roulants isolants par un artisan **RGE** (comme Répar'Action Volets) vous donne accès à :
-- **MaPrimeRénov'** : jusqu'à 25€/m²
-- **TVA à 5,5%** au lieu de 20%
-- **Éco-PTZ** : prêt sans intérêts
+- **MaPrimeRénov'** : aide financière de l'État pour la rénovation énergétique
+- **TVA à 5,5%** : taux réduit pour les travaux d'amélioration
+- **Éco-PTZ** : prêt à taux zéro pour financer vos travaux sans frais supplémentaires
 
 Contactez **Répar'Action Volets** au **06 03 20 59 67** pour un bilan thermique gratuit.`
   },
@@ -585,12 +582,12 @@ Bonne nouvelle : en 2026, de nombreuses aides financières sont disponibles pour
 - Volets roulants contribuant à l'isolation thermique
 
 ### Montants des aides
-| Profil revenus | Aide par volet | Plafond |
+| Profil revenus | Niveau d'aide | Prise en charge |
 |----------------|---------------|---------|
-| Très modestes (bleu) | 25€/m² | 100% pris en charge |
-| Modestes (jaune) | 20€/m² | 80% pris en charge |
-| Intermédiaires (violet) | 15€/m² | 60% pris en charge |
-| Supérieurs (rose) | Non éligible | — |
+| Très modestes (bleu) | Maximale | Optimale |
+| Modestes (jaune) | Importante | Élevée |
+| Intermédiaires (violet) | Standard | Partielle |
+| Supérieurs (rose) | Selon projet | — |
 
 ### Comment en bénéficier ?
 1. Créez votre compte sur maprimerenov.gouv.fr
@@ -603,38 +600,29 @@ Bonne nouvelle : en 2026, de nombreuses aides financières sont disponibles pour
 
 Pour tous les logements de **plus de 2 ans**, les travaux d'amélioration énergétique bénéficient d'une TVA à 5,5% au lieu de 20%. C'est automatique quand vous faites appel à un professionnel.
 
-**Économie concrète** : sur un devis de 3 000€ HT, vous économisez **435€** de TVA.
+**Économie concrète** : bénéficiez d'une réduction immédiate sur votre facture grâce à l'application du taux de TVA réduit.
 
 ## 3. Éco-prêt à taux zéro (Éco-PTZ)
 
 ### Principe
-Empruntez jusqu'à **50 000€ sans intérêts** pour financer vos travaux de rénovation énergétique. Remboursement sur 20 ans maximum.
+Empruntez sans intérêts pour financer vos travaux de rénovation énergétique et étalez vos remboursements en toute sérénité.
 
 ### Conditions
-- Logement construit avant 2001
+- Logement de plus de 2 ans
 - Pas de conditions de revenus
-- Au moins 2 types de travaux (ex : volets + vitrage)
+- Travaux visant l'amélioration de la performance énergétique
 
 ## 4. CEE (Certificats d'Économie d'Énergie)
 
-Les fournisseurs d'énergie (EDF, Engie, Total) versent des primes pour les travaux d'isolation. Le montant varie selon le fournisseur et votre zone géographique.
-
-**Montant moyen** : 50 à 150€ par volet installé.
+Les fournisseurs d'énergie versent des primes pour les travaux d'isolation. Le montant de cette prime énergie est déduit directement de votre devis.
 
 ## 5. Aides locales
 
 De nombreuses collectivités locales proposent des aides complémentaires. Renseignez-vous auprès de votre mairie ou de l'ADIL de votre département.
 
-## Cumul des aides : jusqu'à 50% d'économies
+## Cumul des aides : réalisez des économies majeures
 
-La bonne nouvelle est que ces aides sont **cumulables** ! Voici un exemple concret :
-
-### Exemple pour 6 volets roulants alu motorisés
-- **Devis initial** : 4 200€ TTC (TVA 20%)
-- **TVA 5,5%** : 3 675€ TTC (-525€)
-- **MaPrimeRénov'** (revenus modestes) : -600€
-- **CEE** : -450€
-- **Reste à charge** : 2 625€ au lieu de 4 200€ = **37% d'économies**
+La bonne nouvelle est que ces aides sont **cumulables** ! En associant la TVA réduite, MaPrimeRénov' et les primes CEE, vous pouvez réduire considérablement votre reste à charge pour votre projet de rénovation de volets roulants. Contactez-nous pour une simulation personnalisée de votre projet.
 
 ## Répar'Action Volets vous accompagne
 
@@ -866,7 +854,7 @@ Notre technicien dédié au Val-de-Marne couvre l'ensemble du département :
 - **Vitry-sur-Seine** : 2e ville du 94, forte demande en réparation et isolation thermique
 - **Ivry-sur-Seine** : quartier Ivry Confluences en plein développement, installations neuves
 - **Villejuif** : proximité de l'hôpital, interventions fréquentes en copropriétés
-- **Fontenay-sous-Bois** : résidentiel familial, motorisation et remplacement de volets anciens
+- **Vincennes** : résidentiel familial, motorisation et remplacement de volets anciens
 - **Vincennes** : patrimoine architectural soigné, volets sur-mesure aux normes ABF
 - **Saint-Mandé** : quartier résidentiel calme, demande en volets anti-bruit
 
@@ -1216,7 +1204,7 @@ Le budget d'une solution acoustique complète dépend du nombre de fenêtres, du
 
 ### Amortissement
 
-En zone bruyante, un volet acoustique améliore drastiquement votre qualité de vie ET augmente la valeur de votre bien de **5 à 8%**. Pour un appartement de 500 000€, c'est un gain potentiel de 25 000 à 40 000€.
+En zone bruyante, un volet acoustique améliore drastiquement votre qualité de vie ET augmente la valeur de votre bien de **5 à 8%**. C'est un gain potentiel significatif lors de la revente de votre bien.
 
 ## Notre engagement
 

@@ -52,12 +52,7 @@ const sections = [
     color: "bg-service-rose",
     content: "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données. Pour exercer ces droits, contactez-nous à contact@reparaction-volets.fr.",
   },
-  {
-    icon: Cookie,
-    title: "Cookies",
-    color: "bg-service-blue",
-    content: "Ce site utilise des cookies pour améliorer votre expérience utilisateur. Vous pouvez désactiver les cookies dans les paramètres de votre navigateur.",
-  },
+
 ];
 
 const PolitiqueConfidentialite = () => {

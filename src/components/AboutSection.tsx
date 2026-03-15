@@ -4,7 +4,7 @@ import { fadeUp, fadeLeft, fadeRight, staggerItem } from "@/lib/animations";
 import CounterAnimation from "./CounterAnimation";
 
 const points = [
-  { icon: Award, text: "Plus de 10 ans d'expérience en volets roulants à Paris", color: "bg-service-blue/10 text-service-blue" },
+            { icon: Award, text: "Plus de 10 ans d'expérience en volets roulants et vitrines à Paris", color: "bg-service-blue/10 text-service-blue" },
   { icon: Clock, text: "Intervention rapide sous 24-48h — Paris & Île-de-France", color: "bg-service-orange/10 text-service-orange" },
   { icon: ShieldCheck, text: "Artisan certifié RGE et Qualibat — Éligible MaPrimeRénov'", color: "bg-service-emerald/10 text-service-emerald" },
   { icon: Hammer, text: "Garantie 3 ans pièces et main d'œuvre sur toutes interventions", color: "bg-service-violet/10 text-service-violet" },
@@ -25,13 +25,13 @@ const AboutSection = () => (
       <motion.div {...fadeUp} className="text-center max-w-3xl mx-auto mb-16">
         <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-service-emerald/10 text-service-emerald text-sm font-semibold border border-service-emerald/20 mb-4">Notre Engagement</span>
         <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-2 mb-6">
-          Répar'Action Volets : Votre Artisan Expert en Volets Roulants à Paris depuis 10 ans
+          Répar'Action Volets : Votre Artisan Expert en Volets Roulants & Vitrines à Paris depuis 10 ans
         </h2>
         <p className="text-muted-foreground leading-relaxed text-lg mb-4">
-          Fondée il y a plus de 10 ans, Répar'Action Volets s'est imposée comme la référence incontournable du dépannage, de la réparation, de l'installation et de la motorisation de volets roulants à Paris et en Île-de-France. Notre engagement est simple : vous offrir un service de qualité, rapide et transparent, pour que votre habitat reste sécurisé, confortable et économe en énergie.
+          Fondée il y a plus de 10 ans, Répar'Action Volets s'est imposée comme la référence incontournable du dépannage, de la réparation, de l'installation et de la motorisation de volets roulants, ainsi qu'en vitrerie et vitrine à Paris et en Île-de-France. Notre engagement est simple : vous offrir un service de qualité, rapide et transparent, pour que votre habitat ou commerce reste sécurisé, confortable et économe en énergie.
         </p>
         <p className="text-muted-foreground leading-relaxed text-sm">
-          Basés à Fontenay-Trésigny (77), nous avons développé un réseau de techniciens répartis stratégiquement sur l'ensemble de la région parisienne. Chaque artisan est formé en continu sur les dernières technologies de motorisation Somfy io-homecontrol, les solutions solaires Bubendorff ID2 et les systèmes domotiques connectés Google Home et Alexa. Notre flotte de véhicules équipés embarque un stock permanent de pièces détachées — moteurs, condensateurs, sangles, lames aluminium et PVC — pour résoudre 95% des pannes dès le premier passage.
+          Présents à Paris et dans toute l'Île-de-France, nous avons développé un réseau de techniciens répartis stratégiquement sur l'ensemble de la région parisienne. Chaque artisan est formé en continu sur les dernières technologies de motorisation Somfy io-homecontrol, les solutions solaires Bubendorff ID2 et les systèmes domotiques connectés Google Home et Alexa. Notre flotte de véhicules équipés embarque un stock permanent de pièces détachées — moteurs, condensateurs, sangles, lames aluminium et PVC — pour résoudre 95% des pannes dès le premier passage.
         </p>
       </motion.div>
 

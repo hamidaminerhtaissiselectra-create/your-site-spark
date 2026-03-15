@@ -16,12 +16,12 @@ const ContactSection = React.forwardRef<HTMLElement>((_, ref) => (
       <div className="grid lg:grid-cols-2 gap-10">
         <motion.div {...fadeLeft} className="rounded-2xl overflow-hidden border border-border h-96 shadow-lg relative">
           <iframe
-            title="Localisation Répar'Action Volets — 62 Rue Emile Zola, 77610 Fontenay-Trésigny"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=62+Rue+Emile+Zola,+77610+Fontenay-Trésigny,+France&zoom=15"
+            title="Zone d'intervention Répar'Action Volets — Paris & Île-de-France"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Paris+France&zoom=10"
             width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
           <noscript>
             <p className="absolute inset-0 flex items-center justify-center bg-muted text-muted-foreground text-sm p-4 text-center">
-              Carte Google Maps — 62 Rue Emile Zola, 77610 Fontenay-Trésigny. Activez JavaScript pour afficher la carte interactive.
+              Zone d'intervention — Paris & Île-de-France. Activez JavaScript pour afficher la carte interactive.
             </p>
           </noscript>
         </motion.div>
@@ -30,7 +30,7 @@ const ContactSection = React.forwardRef<HTMLElement>((_, ref) => (
           {[
             { icon: Phone, title: "Téléphone", text: "06 03 20 59 67", sub: "Lun - Ven : 8h - 18h", color: "bg-service-blue", href: "tel:+33603205967" },
             { icon: Mail, title: "Email", text: "contact@reparaction-volets.fr", sub: "Réponse sous 24h", color: "bg-service-rose", href: "mailto:contact@reparaction-volets.fr" },
-            { icon: MapPin, title: "Adresse", text: "62 Rue Emile Zola, 77610 Fontenay-Trésigny", sub: "Siège social", color: "bg-service-emerald", href: "https://maps.google.com/?q=62+Rue+Emile+Zola+77610+Fontenay-Trésigny" },
+            { icon: MapPin, title: "Zone d'intervention", text: "Paris & Île-de-France", sub: "Intervention rapide", color: "bg-service-emerald", href: "https://maps.google.com/?q=Paris+France" },
             { icon: Clock, title: "Horaires", text: "Lun - Ven : 8h00 - 18h00 | Sam : 9h00 - 13h00", sub: "Urgences 7j/7", color: "bg-service-violet", href: undefined },
           ].map((item, index) => {
             const content = (

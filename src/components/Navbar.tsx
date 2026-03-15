@@ -10,7 +10,7 @@ const serviceLinks = [
   { label: "Installation & Remplacement", href: "/services/installation-remplacement-volets" },
   { label: "Réparation de volets", href: "/services/reparation-volets-roulants" },
   { label: "Motorisation & Domotique", href: "/services/motorisation-domotique" },
-  { label: "Vitrerie & Vitrage", href: "/services/vitrerie-remplacement-vitrage" },
+  { label: "Vitrerie, Vitrage & Vitrine", href: "/services/vitrerie-remplacement-vitrage" },
 ];
 
 const navLinks = [
@@ -91,7 +91,7 @@ const Navbar = () => {
             <a href={`tel:${content.company.contact.phoneMobile.replace(/\s/g, '')}`}><Phone className="h-4 w-4" /> {content.company.contact.phoneMobile}</a>
           </Button>
             <Button size="sm" variant="accent" asChild>
-            <a href="/#devis">Devis Gratuit</a>
+            <Link to="/#devis">Devis Gratuit</Link>
           </Button>
         </div>
 
@@ -145,7 +145,7 @@ const Navbar = () => {
                   <a href={`tel:${content.company.contact.phoneMobile.replace(/\s/g, '')}`}><Phone className="h-4 w-4" /> {content.company.contact.phoneMobile}</a>
                 </Button>
                 <Button size="sm" variant="accent" asChild className="w-full">
-                  <a href="/#devis" onClick={() => setOpen(false)}>Devis Gratuit</a>
+                  <Link to="/#devis" onClick={() => setOpen(false)}>Devis Gratuit</Link>
                 </Button>
               </div>
             </div>
