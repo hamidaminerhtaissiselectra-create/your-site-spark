@@ -1210,15 +1210,9 @@ Un volet roulant conçu pour l'isolation phonique se distingue par :
 - **Coulisses à rupture de pont** : pas de transmission directe du son par les rails
 - **Lame finale** avec joint brosse renforcé sur toute la largeur
 
-## Coût d'une solution acoustique complète
+## Solution acoustique sur mesure
 
-| Composant | Prix moyen |
-|-----------|-----------|
-| Volet alu acoustique (par fenêtre) | 500-900€ |
-| Joint triple lèvre (par fenêtre) | 30-50€ |
-| Coffre isolé | Inclus |
-| Motorisation radio | 300-450€ |
-| **Total par fenêtre** | **800-1 350€** |
+Le budget d'une solution acoustique complète dépend du nombre de fenêtres, du type de vitrage et du niveau de performance souhaité. Contactez-nous pour un devis personnalisé après diagnostic acoustique gratuit.
 
 ### Amortissement
 
