@@ -145,7 +145,7 @@ Chez **Répar'Action Volets**, nous vous accompagnons dans votre choix. Contacte
     author: "Répar'Action Volets",
     category: "Motorisation",
     slug: "guide-motorisation",
-    metaDescription: "Guide complet motorisation volets roulants 2026 : types de moteurs, prix, avantages, processus d'installation. Conseils experts Répar'Action Volets.",
+    metaDescription: "Guide complet motorisation volets roulants 2026 : types de moteurs, avantages, processus d'installation. Conseils experts Répar'Action Volets.",
     image: "/images/blog/guide-motorisation.webp",
     content: `## Pourquoi motoriser vos volets roulants en 2026 ?
 
