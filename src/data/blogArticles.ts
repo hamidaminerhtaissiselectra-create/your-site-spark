@@ -485,7 +485,6 @@ Programmez l'ouverture de vos volets à 7h30 le matin et la fermeture à 22h00 l
 ### Somfy Connexoon — L'entrée de gamme
 - Fonctionnalités essentielles
 - Compatible Google Home et Alexa
-- Prix : environ 100€
 
 ### Solutions tierces
 - **Fibaro** : très personnalisable mais technique
@@ -494,13 +493,7 @@ Programmez l'ouverture de vos volets à 7h30 le matin et la fermeture à 22h00 l
 
 ## Budget domotique volets roulants
 
-| Composant | Prix |
-|-----------|------|
-| Moteur connecté (par volet) | 350-500€ |
-| Box domotique (Somfy TaHoma) | 300-400€ |
-| Capteur soleil/vent | 80-150€ |
-| Installation professionnelle | 100-200€/volet |
-| **Budget total (5 volets)** | **2 500 - 4 000€** |
+Le budget dépend du nombre de volets, du type de moteur connecté et de la box domotique choisie. Contactez-nous pour un devis personnalisé adapté à votre configuration.
 
 ## L'installation par Répar'Action Volets
 
