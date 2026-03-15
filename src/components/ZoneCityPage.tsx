@@ -50,9 +50,7 @@ const ZoneCityPage = ({ city }: ZoneCityPageProps) => {
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "62 Rue Emile Zola",
-      "addressLocality": "Fontenay-Trésigny",
-      "postalCode": "77610",
+      "addressRegion": "Île-de-France",
       "addressCountry": "FR"
     },
     "telephone": "+33603205967",
