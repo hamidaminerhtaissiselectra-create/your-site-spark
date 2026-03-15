@@ -872,7 +872,7 @@ Notre technicien dédié au Val-de-Marne couvre l'ensemble du département :
 
 ### Avantages de notre proximité
 
-Basés à **Fontenay-Trésigny** (77), nous sommes à moins de 30 minutes de Créteil par l'A4. Notre technicien local circule quotidiennement dans le Val-de-Marne, équipé de pièces Somfy et Bubendorff. Intervention sous 24 à 48h garantie.
+Nos techniciens locaux interviennent rapidement dans tout le Val-de-Marne, équipés de pièces Somfy et Bubendorff. Intervention sous 24 à 48h garantie.
 
 Appelez le **06 03 20 59 67** pour un devis gratuit dans le Val-de-Marne.`
   },
