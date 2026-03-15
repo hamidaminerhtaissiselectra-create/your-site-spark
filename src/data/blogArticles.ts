@@ -936,7 +936,7 @@ Pour les puristes, on conserve l'apparence traditionnelle des volets battants en
 
 - **Avantages** : esthétique authentique, accepté sans réserve par les ABF
 - **Inconvénients** : coût élevé, entretien du bois nécessaire
-- **Prix** : 1 500 à 3 000€ par fenêtre
+- **Avantages** : esthétique authentique, accepté sans réserve par les ABF
 - **Idéal pour** : rez-de-chaussée d'hôtels particuliers, devantures historiques
 
 ## Le matériau idéal pour le Marais
